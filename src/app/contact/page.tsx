@@ -1,42 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef } from "react";
 import PageLayout from "@/components/PageLayout";
 import PageHeader from "@/components/PageHeader";
 
-const whatsappNumber = "33645636107";
-const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+const whatsappUrl = "https://wa.me/33645636107";
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ name: "", company: "", email: "", sector: "", message: "" });
-  const [sent, setSent] = useState(false);
-  const [sending, setSending] = useState(false);
-  const [error, setError] = useState("");
+  const formRef = useRef<HTMLDivElement>(null);
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setSending(true);
-    setError("");
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-
-      if (res.ok) {
-        setSent(true);
-        setForm({ name: "", company: "", email: "", sector: "", message: "" });
-      } else {
-        setError("Une erreur est survenue. Réessayez ou contactez-nous sur WhatsApp.");
+  useEffect(() => {
+    // Load HubSpot script
+    const script = document.createElement("script");
+    script.src = "//js.hsforms.net/forms/embed/v2.js";
+    script.charset = "utf-8";
+    script.async = true;
+    script.onload = () => {
+      if (window.hbspt && formRef.current) {
+        window.hbspt.forms.create({
+          portalId: "2703445",
+          formId: "73471821-b85d-4c07-bba0-44be11228f6c",
+          region: "na1",
+          target: "#hubspot-form",
+        });
       }
-    } catch {
-      setError("Erreur réseau. Réessayez ou contactez-nous sur WhatsApp.");
-    } finally {
-      setSending(false);
-    }
-  }
+    };
+    document.head.appendChild(script);
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
 
   return (
     <PageLayout>
@@ -49,118 +42,9 @@ export default function ContactPage() {
       <section className="section-padding section-light">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-10">
-            {/* Left: form */}
+            {/* Left: HubSpot form */}
             <div className="p-8 rounded-2xl bg-surface border border-border">
-              {sent ? (
-                <div className="text-center py-12">
-                  <div className="w-14 h-14 rounded-2xl bg-accent/15 flex items-center justify-center mx-auto mb-5">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent">
-                      <path d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <h2 className="text-xl font-bold mb-2">Message envoyé.</h2>
-                  <p className="text-foreground/50 text-[14px] mb-6">Nous vous répondons sous 24 heures.</p>
-                  <button onClick={() => setSent(false)} className="text-[13px] text-accent hover:underline">Envoyer un autre message</button>
-                </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-5">
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="text-[11px] uppercase tracking-wider text-muted font-semibold block mb-2">Nom *</label>
-                      <input
-                        type="text"
-                        required
-                        value={form.name}
-                        onChange={(e) => setForm({ ...form, name: e.target.value })}
-                        placeholder="Votre nom"
-                        className="w-full bg-background border border-border rounded-xl px-4 py-3 text-[13px] outline-none focus:border-accent transition-colors placeholder:text-foreground/25"
-                      />
-                    </div>
-                    <div>
-                      <label className="text-[11px] uppercase tracking-wider text-muted font-semibold block mb-2">Société</label>
-                      <input
-                        type="text"
-                        value={form.company}
-                        onChange={(e) => setForm({ ...form, company: e.target.value })}
-                        placeholder="Votre entreprise"
-                        className="w-full bg-background border border-border rounded-xl px-4 py-3 text-[13px] outline-none focus:border-accent transition-colors placeholder:text-foreground/25"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="text-[11px] uppercase tracking-wider text-muted font-semibold block mb-2">Email *</label>
-                    <input
-                      type="email"
-                      required
-                      value={form.email}
-                      onChange={(e) => setForm({ ...form, email: e.target.value })}
-                      placeholder="votre@email.com"
-                      className="w-full bg-background border border-border rounded-xl px-4 py-3 text-[13px] outline-none focus:border-accent transition-colors placeholder:text-foreground/25"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="text-[11px] uppercase tracking-wider text-muted font-semibold block mb-2">Secteur d&apos;activité</label>
-                    <select
-                      value={form.sector}
-                      onChange={(e) => setForm({ ...form, sector: e.target.value })}
-                      className="w-full bg-background border border-border rounded-xl px-4 py-3 text-[13px] outline-none focus:border-accent transition-colors text-foreground/70 appearance-none"
-                    >
-                      <option value="">Sélectionner...</option>
-                      <option>Gestion de patrimoine / Family office</option>
-                      <option>Banque privée</option>
-                      <option>Cabinet d&apos;avocats / Étude juridique</option>
-                      <option>Immobilier de luxe</option>
-                      <option>Hôtellerie / Restauration</option>
-                      <option>Commerce de luxe / Retail</option>
-                      <option>Santé / Clinique privée</option>
-                      <option>Services professionnels</option>
-                      <option>Autre</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="text-[11px] uppercase tracking-wider text-muted font-semibold block mb-2">Votre message *</label>
-                    <textarea
-                      required
-                      rows={4}
-                      value={form.message}
-                      onChange={(e) => setForm({ ...form, message: e.target.value })}
-                      placeholder="Décrivez brièvement votre contexte et vos enjeux..."
-                      className="w-full bg-background border border-border rounded-xl px-4 py-3 text-[13px] outline-none focus:border-accent transition-colors resize-none placeholder:text-foreground/25"
-                    />
-                  </div>
-
-                  {error && (
-                    <div className="p-3 rounded-lg bg-red-50 border border-red-200 text-red-700 text-[12px]">{error}</div>
-                  )}
-
-                  <div className="pt-2">
-                    <button
-                      type="submit"
-                      disabled={sending}
-                      className="w-full bg-accent text-dark font-semibold px-6 py-3.5 rounded-xl text-[13px] hover:bg-accent-dark transition-all inline-flex items-center justify-center gap-2 shadow-lg shadow-accent/20 disabled:opacity-50"
-                    >
-                      {sending ? (
-                        <>
-                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="animate-spin"><circle cx="12" cy="12" r="10" strokeDasharray="32" strokeDashoffset="12" /></svg>
-                          Envoi en cours...
-                        </>
-                      ) : (
-                        <>
-                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                          </svg>
-                          Envoyer le message
-                        </>
-                      )}
-                    </button>
-                  </div>
-
-                  <p className="text-[11px] text-muted text-center">Réponse garantie sous 24 heures.</p>
-                </form>
-              )}
+              <div id="hubspot-form" ref={formRef} />
             </div>
 
             {/* Right: info cards */}
@@ -191,7 +75,7 @@ export default function ContactPage() {
                 <h2 className="text-[14px] font-semibold mb-4">Comment ça se passe</h2>
                 <div className="space-y-4">
                   {[
-                    { n: "1", text: "Vous nous contactez via le formulaire ou WhatsApp" },
+                    { n: "1", text: "Vous remplissez le formulaire ou écrivez sur WhatsApp" },
                     { n: "2", text: "Nous échangeons 30 min sur vos enjeux" },
                     { n: "3", text: "Nous identifions les premiers leviers" },
                     { n: "4", text: "Si pertinent, nous proposons une feuille de route" },
@@ -207,7 +91,7 @@ export default function ContactPage() {
               {/* Location */}
               <div className="p-6 rounded-2xl bg-surface border border-border">
                 <span className="text-[10px] uppercase tracking-wider text-muted font-semibold block mb-0.5">Localisation</span>
-                <span className="text-[13px] text-foreground/70 font-medium">Principauté de Monaco</span>
+                <span className="text-[13px] text-foreground/70 font-medium">The Office, Principauté de Monaco</span>
               </div>
             </div>
           </div>
@@ -215,4 +99,20 @@ export default function ContactPage() {
       </section>
     </PageLayout>
   );
+}
+
+// Type declaration for HubSpot
+declare global {
+  interface Window {
+    hbspt: {
+      forms: {
+        create: (config: {
+          portalId: string;
+          formId: string;
+          region: string;
+          target: string;
+        }) => void;
+      };
+    };
+  }
 }
