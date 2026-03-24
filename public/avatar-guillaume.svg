@@ -1,0 +1,79 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#1e1e1e"/>
+
+  <!-- Neck -->
+  <rect x="78" y="145" width="44" height="25" rx="6" fill="#e8c4a0"/>
+
+  <!-- T-shirt / shoulders -->
+  <path d="M45 200 C45 170, 65 158, 100 158 C135 158, 155 170, 155 200" fill="#111111"/>
+  <!-- T-shirt neckline -->
+  <path d="M80 158 C85 165, 95 168, 100 168 C105 168, 115 165, 120 158" stroke="#222222" stroke-width="1.5" fill="none"/>
+
+  <!-- Star on t-shirt -->
+  <path d="M108 178 l1.5 3 3.5 0.5 -2.5 2.5 0.5 3.5 -3-1.5 -3 1.5 0.5-3.5 -2.5-2.5 3.5-0.5z" fill="#c8ee44" opacity="0.8"/>
+
+  <!-- Face shape -->
+  <ellipse cx="100" cy="105" rx="42" ry="48" fill="#e8c4a0"/>
+
+  <!-- Jaw definition -->
+  <path d="M62 115 Q70 148, 100 155 Q130 148, 138 115" fill="#ddb892"/>
+  <ellipse cx="100" cy="105" rx="42" ry="48" fill="#e8c4a0"/>
+
+  <!-- Ears -->
+  <ellipse cx="58" cy="108" rx="7" ry="10" fill="#ddb892"/>
+  <ellipse cx="142" cy="108" rx="7" ry="10" fill="#ddb892"/>
+
+  <!-- Hair base -->
+  <path d="M58 90 Q58 55, 100 52 Q142 55, 142 90 L142 80 Q140 58, 100 54 Q60 58, 58 80 Z" fill="#3d2b1f"/>
+
+  <!-- Hair top - messy short style -->
+  <path d="M60 82 Q58 52, 100 48 Q145 52, 142 78" fill="#3d2b1f"/>
+  <path d="M65 75 Q68 48, 100 45 Q138 48, 140 72" fill="#4a3428"/>
+  <!-- Side swept fringe -->
+  <path d="M62 80 Q65 55, 95 50 Q110 49, 118 52 Q100 48, 78 55 Q64 62, 62 80" fill="#3d2b1f"/>
+  <!-- Hair texture highlights -->
+  <path d="M75 58 Q85 50, 105 50" stroke="#5a4538" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M80 55 Q92 48, 112 52" stroke="#5a4538" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Eyebrows -->
+  <path d="M72 92 Q80 88, 90 90" stroke="#3d2b1f" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M110 90 Q120 88, 128 92" stroke="#3d2b1f" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="82" cy="100" rx="5" ry="4.5" fill="white"/>
+  <ellipse cx="118" cy="100" rx="5" ry="4.5" fill="white"/>
+  <circle cx="83" cy="100" r="3" fill="#4a3728"/>
+  <circle cx="119" cy="100" r="3" fill="#4a3728"/>
+  <circle cx="84" cy="99" r="1.2" fill="white"/>
+  <circle cx="120" cy="99" r="1.2" fill="white"/>
+
+  <!-- Glasses frame - round style -->
+  <circle cx="82" cy="100" r="16" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+  <circle cx="118" cy="100" r="16" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+  <!-- Bridge -->
+  <path d="M98 100 Q100 96, 102 100" stroke="#2a2a2a" stroke-width="2.5" fill="none"/>
+  <!-- Temple arms -->
+  <path d="M66 98 Q58 97, 56 102" stroke="#2a2a2a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M134 98 Q142 97, 144 102" stroke="#2a2a2a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Glasses subtle shadow -->
+  <circle cx="82" cy="100" r="16" stroke="#000000" stroke-width="1" fill="none" opacity="0.1" transform="translate(0,1)"/>
+  <circle cx="118" cy="100" r="16" stroke="#000000" stroke-width="1" fill="none" opacity="0.1" transform="translate(0,1)"/>
+
+  <!-- Nose -->
+  <path d="M100 104 Q97 115, 96 120 Q99 122, 104 122 Q103 115, 100 104" stroke="#d4a574" stroke-width="1" fill="none"/>
+
+  <!-- Mouth - slight smile -->
+  <path d="M90 132 Q95 137, 100 137 Q105 137, 110 132" stroke="#c4856e" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Light stubble dots -->
+  <g opacity="0.15" fill="#3d2b1f">
+    <circle cx="88" cy="140" r="0.5"/>
+    <circle cx="92" cy="142" r="0.5"/>
+    <circle cx="96" cy="143" r="0.5"/>
+    <circle cx="100" cy="144" r="0.5"/>
+    <circle cx="104" cy="143" r="0.5"/>
+    <circle cx="108" cy="142" r="0.5"/>
+    <circle cx="112" cy="140" r="0.5"/>
+  </g>
+</svg>

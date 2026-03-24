@@ -1,0 +1,64 @@
+# Factory — Cabinet d'Expertise IA à Monaco
+
+> Factory est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.
+
+## Pages principales
+- Accueil : /
+- White Paper : /white-paper (L'IA dans la Principauté de Monaco)
+- Expertise : /expertise
+- Méthode : /methode
+- Secteurs : /secteurs
+- Résultats : /resultats
+- Le cabinet : /cabinet
+- Contact : /contact
+- Tarifs : /tarifs
+- FAQ : /faq
+- Glossaire : /glossaire
+- Blog : /blog
+
+## Expertises (6)
+- Audit & stratégie IA : /expertise/audit-strategie-ia
+- Automatisation des processus : /expertise/automatisation-processus
+- Développement IA sur mesure : /expertise/developpement-ia-sur-mesure
+- Marketing & acquisition : /expertise/marketing-acquisition
+- Outils internes sur mesure : /expertise/outils-internes
+- Formation & appropriation : /expertise/formation-ia
+
+## Secteurs (8)
+- Gestion de patrimoine & Family offices : /secteurs/gestion-patrimoine
+- Banque privée : /secteurs/banque-privee
+- Cabinets d'avocats : /secteurs/cabinets-avocats
+- Immobilier de luxe : /secteurs/immobilier-luxe
+- Hôtellerie & restauration : /secteurs/hotellerie-restauration
+- Commerce de luxe : /secteurs/commerce-luxe
+- Santé & cliniques : /secteurs/sante-cliniques
+- Services professionnels : /secteurs/services-professionnels
+
+## Cas clients (10)
+- Gestion documentaire bancaire : /resultats/gestion-documentaire-bancaire
+- Échéancier obligataire : /resultats/echeancier-obligataire
+- Production d'actes et statuts : /resultats/production-actes-statuts
+- Conformité documentaire : /resultats/conformite-documentaire
+- Reporting client trimestriel : /resultats/reporting-client-trimestriel
+- Dossiers de présentation immobilier : /resultats/dossiers-presentation-immobilier
+- Contrôle LCB-FT : /resultats/controle-lcb-ft
+- Recherche juridique multi-juridictions : /resultats/recherche-juridique-multi-juridictions
+- Gestion des avis clients hôtellerie : /resultats/gestion-avis-clients-hotellerie
+- Campagnes email commerce de luxe : /resultats/campagnes-email-commerce-luxe
+
+## Blog (10 articles)
+- IA à Monaco : état des lieux 2026 : /blog/ia-monaco-etat-des-lieux-2026
+- Automatiser la conformité LCB-FT : /blog/automatiser-conformite-lcb-ft-monaco
+- IA et gestion de patrimoine : /blog/ia-gestion-patrimoine-monaco
+- IA et droit monégasque : /blog/ia-cabinets-avocats-droit-monegasque
+- Créer un site web en 2 semaines : /blog/creer-site-web-ia-2-semaines
+- ROI de l'IA : /blog/roi-intelligence-artificielle-mesurer-gains
+- KYC augmenté par IA : /blog/kyc-augmente-ia-banque-privee
+- Former ses équipes à l'IA : /blog/former-equipes-ia-generative
+- 5 processus rentables à automatiser : /blog/5-processus-rentables-automatiser
+- Immobilier de luxe et IA : /blog/immobilier-luxe-ia-monaco
+
+## Contact
+- WhatsApp : +33 6 45 63 61 07
+- Localisation : Principauté de Monaco
+- Site : https://factory-ai.com

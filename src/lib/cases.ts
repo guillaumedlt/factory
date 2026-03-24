@@ -1,0 +1,27 @@
+export type CaseStudy = {
+  slug: string;
+  tag: string;
+  title: string;
+  before: string;
+  after: string;
+  metric: string;
+  metricValue: number;
+  metricSuffix: string;
+  sector: string;
+  sectorSlug: string;
+  expertise: string;
+  duration: string;
+};
+
+export const caseStudies: CaseStudy[] = [
+  { slug: "gestion-documentaire-bancaire", tag: "Société de gestion", title: "Gestion documentaire bancaire", before: "Cinq jours ouvrés par mois consacrés au téléchargement, à l'impression et au classement de 150 relevés bancaires PDF.", after: "Collecte et classement automatisés, contrôle humain ramené à deux heures. Quatre jours de capacité restitués chaque mois.", metric: "4 jours/mois récupérés", metricValue: 4, metricSuffix: " jours/mois", sector: "Gestion de patrimoine", sectorSlug: "gestion-patrimoine", expertise: "Automatisation", duration: "6 semaines" },
+  { slug: "echeancier-obligataire", tag: "Société de gestion", title: "Échéancier obligataire", before: "Construction de l'échéancier mensuel nécessitant l'impression intégrale des portefeuilles et vérification ligne par ligne.", after: "Extraction automatique depuis les relevés PDF. Tableau généré en un clic.", metric: "1 clic au lieu d'une demi-journée", metricValue: 1, metricSuffix: " clic", sector: "Gestion de patrimoine", sectorSlug: "gestion-patrimoine", expertise: "Automatisation", duration: "4 semaines" },
+  { slug: "production-actes-statuts", tag: "Cabinet juridique", title: "Production d'actes et statuts", before: "Rédaction de statuts de société type mobilisant trois heures de travail qualifié.", after: "Assistant de rédaction calibré sur le droit monégasque. Premier jet en cinq minutes, finalisation en trente minutes.", metric: "−80% du temps de production", metricValue: 80, metricSuffix: "%", sector: "Cabinets d'avocats", sectorSlug: "cabinets-avocats", expertise: "IA sur mesure", duration: "8 semaines" },
+  { slug: "conformite-documentaire", tag: "Administration", title: "Conformité documentaire", before: "Suivi des échéances documentaires clients (passeports, cartes de séjour, permis) par vérification manuelle périodique.", after: "Alertes automatiques à 90, 60 et 30 jours. Zéro échéance manquée depuis le déploiement.", metric: "0 échéance manquée", metricValue: 0, metricSuffix: " oubli", sector: "Services professionnels", sectorSlug: "services-professionnels", expertise: "Automatisation", duration: "3 semaines" },
+  { slug: "reporting-client-trimestriel", tag: "Family office", title: "Reporting client trimestriel", before: "Deux jours de compilation manuelle par trimestre pour consolider données de performance et générer les rapports.", after: "Rapport généré automatiquement depuis les sources de données. Validation humaine en 30 minutes.", metric: "6 jours/an récupérés", metricValue: 6, metricSuffix: " jours/an", sector: "Gestion de patrimoine", sectorSlug: "gestion-patrimoine", expertise: "Automatisation", duration: "5 semaines" },
+  { slug: "dossiers-presentation-immobilier", tag: "Immobilier", title: "Dossiers de présentation", before: "Une journée complète par dossier de bien, collecte d'informations et mise en page manuelle.", after: "Génération automatique avec données et visuels intégrés. Dossier prêt en 45 minutes.", metric: "45 min au lieu d'1 jour", metricValue: 45, metricSuffix: " min", sector: "Immobilier de luxe", sectorSlug: "immobilier-luxe", expertise: "Outils internes", duration: "4 semaines" },
+  { slug: "controle-lcb-ft", tag: "Société de gestion", title: "Contrôle LCB-FT", before: "Vérification manuelle de chaque nouveau client contre les listes de sanctions et PEP. Processus fastidieux.", after: "Filtrage automatisé avec scoring de risque paramétrable. Alertes temps réel, piste d'audit complète.", metric: "−90% du temps de vérification", metricValue: 90, metricSuffix: "%", sector: "Gestion de patrimoine", sectorSlug: "gestion-patrimoine", expertise: "IA sur mesure", duration: "10 semaines" },
+  { slug: "recherche-juridique-multi-juridictions", tag: "Cabinet juridique", title: "Recherche juridique multi-juridictions", before: "Recherches manuelles chronophages à travers plusieurs bases de données et juridictions.", after: "Moteur de recherche IA interrogeant simultanément toutes les sources. Résultats en quelques minutes.", metric: "De 2h à 10 min par recherche", metricValue: 10, metricSuffix: " min", sector: "Cabinets d'avocats", sectorSlug: "cabinets-avocats", expertise: "IA sur mesure", duration: "12 semaines" },
+  { slug: "gestion-avis-clients-hotellerie", tag: "Hôtellerie", title: "Gestion des avis clients", before: "Lecture et réponse manuelle à chaque avis sur 5 plateformes. Temps de réponse moyen : 72 heures.", after: "Analyse automatique du sentiment, réponses pré-rédigées par IA, validation humaine en 2 clics. Réponse en 4h.", metric: "Réponse en 4h au lieu de 72h", metricValue: 4, metricSuffix: "h", sector: "Hôtellerie", sectorSlug: "hotellerie-restauration", expertise: "Automatisation", duration: "3 semaines" },
+  { slug: "campagnes-email-commerce-luxe", tag: "Commerce luxe", title: "Campagnes email personnalisées", before: "Création manuelle de chaque campagne email, segmentation approximative, envoi sans personnalisation.", after: "Segmentation IA par comportement d'achat, contenu généré automatiquement, A/B testing intégré.", metric: "+35% taux d'ouverture", metricValue: 35, metricSuffix: "%", sector: "Commerce de luxe", sectorSlug: "commerce-luxe", expertise: "Marketing", duration: "5 semaines" },
+];

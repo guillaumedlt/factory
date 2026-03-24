@@ -1,0 +1,16 @@
+{
+  "name": "Factory — Cabinet d'Expertise IA à Monaco",
+  "short_name": "Factory",
+  "description": "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f6f6f1",
+  "background_color": "#f6f6f1",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
