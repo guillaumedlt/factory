@@ -39,7 +39,7 @@ export default function Header() {
   }
 
   function closeSub() {
-    timeoutRef.current = setTimeout(() => setSubOpen(false), 200);
+    timeoutRef.current = setTimeout(() => setSubOpen(false), 400);
   }
 
   return (
@@ -63,7 +63,7 @@ export default function Header() {
               >
                 <Link
                   href={link.href}
-                  className="text-[13px] text-white/60 hover:text-white transition-colors inline-flex items-center gap-1"
+                  className="text-[13px] text-white/60 hover:text-white transition-colors inline-flex items-center gap-1 py-2"
                 >
                   {link.label}
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={`transition-transform duration-200 ${subOpen ? "rotate-180" : ""}`}>
@@ -71,10 +71,13 @@ export default function Header() {
                   </svg>
                 </Link>
 
+                {/* Invisible bridge to keep hover alive between link and dropdown */}
+                <div className={`absolute top-full left-0 w-full h-4 ${subOpen ? "" : "pointer-events-none"}`} />
+
                 {/* Dropdown */}
                 <div
                   ref={subRef}
-                  className={`absolute top-full left-1/2 -translate-x-1/2 pt-3 transition-all duration-200 ${
+                  className={`absolute top-[calc(100%+8px)] left-0 transition-all duration-200 ${
                     subOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none"
                   }`}
                   onMouseEnter={openSub}
