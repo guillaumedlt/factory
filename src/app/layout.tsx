@@ -91,6 +91,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#f6f6f1" />
+        <meta name="google-site-verification" content="KseSuVdxZ81Y9WyEm48Vkzcu79EnCyQz6bPdBVntnq8" />
         <meta name="google-site-verification" content="rbOUKjbBxDi4yOF1fxt1jZ1e0GnpbRSRwSUmxD1t4GM" />
       </head>
       <body className="min-h-screen flex flex-col bg-background text-foreground">
