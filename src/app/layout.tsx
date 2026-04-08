@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Quanta",
   },
   description:
-    "Quanta est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques. Stratégie, implémentation, formation et automatisation.",
+    "Quanta : cabinet d'expertise IA à Monaco. Stratégie, automatisation, développement sur mesure et formation pour les entreprises de la Principauté.",
   keywords: [
     "intelligence artificielle",
     "IA Monaco",
