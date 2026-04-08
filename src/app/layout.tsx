@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://factorymonaco.com"),
+  metadataBase: new URL("https://quantamonaco.com"),
   title: {
-    default: "Factory — Cabinet d'Expertise IA à Monaco",
-    template: "%s | Factory",
+    default: "Quanta — Cabinet d'Expertise IA à Monaco",
+    template: "%s | Quanta",
   },
   description:
-    "Factory est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques. Stratégie, implémentation, formation et automatisation.",
+    "Quanta est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques. Stratégie, implémentation, formation et automatisation.",
   keywords: [
     "intelligence artificielle",
     "IA Monaco",
@@ -31,12 +31,12 @@ export const metadata: Metadata = {
     "machine learning",
     "consulting IA",
     "stratégie IA",
-    "Factory",
+    "Quanta",
     "Principauté de Monaco",
   ],
-  authors: [{ name: "Factory" }],
-  creator: "Factory",
-  publisher: "Factory",
+  authors: [{ name: "Quanta" }],
+  creator: "Quanta",
+  publisher: "Quanta",
   robots: {
     index: true,
     follow: true,
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://factorymonaco.com",
-    siteName: "Factory",
-    title: "Factory — Cabinet d'Expertise IA à Monaco",
+    url: "https://quantamonaco.com",
+    siteName: "Quanta",
+    title: "Quanta — Cabinet d'Expertise IA à Monaco",
     description:
       "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
     images: [
@@ -61,19 +61,19 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Factory — Cabinet d'Expertise IA",
+        alt: "Quanta — Cabinet d'Expertise IA",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Factory — Cabinet d'Expertise IA à Monaco",
+    title: "Quanta — Cabinet d'Expertise IA à Monaco",
     description:
       "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://factorymonaco.com",
+    canonical: "https://quantamonaco.com",
   },
 };
 
@@ -106,18 +106,18 @@ function JsonLd() {
     {
       "@context": "https://schema.org",
       "@type": ["ProfessionalService", "LocalBusiness"],
-      name: "Factory",
-      legalName: "Factory",
+      name: "Quanta",
+      legalName: "Quanta",
       description:
         "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
-      url: "https://factorymonaco.com",
-      logo: "https://factorymonaco.com/favicon.svg",
-      image: "https://factorymonaco.com/opengraph-image",
+      url: "https://quantamonaco.com",
+      logo: "https://quantamonaco.com/favicon.svg",
+      image: "https://quantamonaco.com/opengraph-image",
       founder: {
         "@type": "Person",
         name: "Guillaume Delachet",
         jobTitle: "Fondateur",
-        url: "https://factorymonaco.com/cabinet",
+        url: "https://quantamonaco.com/cabinet",
       },
       foundingDate: "2026",
       address: {
@@ -171,14 +171,14 @@ function JsonLd() {
       ],
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Services Factory",
+        name: "Services Quanta",
         itemListElement: [
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Audit IA", description: "Cartographie des opportunités d'automatisation, priorisée par ROI", url: "https://factorymonaco.com/expertise/audit-strategie-ia" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Automatisation", description: "Extraction documentaire, classification, conformité, reporting", url: "https://factorymonaco.com/expertise/automatisation-processus" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "IA sur mesure", description: "Assistants juridiques, veille réglementaire, KYC augmenté", url: "https://factorymonaco.com/expertise/developpement-ia-sur-mesure" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing IA", description: "Sites web en 2 semaines, campagnes IA, acquisition digitale", url: "https://factorymonaco.com/expertise/marketing-acquisition" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outils internes", description: "CRM, dashboards, portails clients livrés 10x plus vite", url: "https://factorymonaco.com/expertise/outils-internes" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Formation IA", description: "Programmes calibrés sur vos cas d'usage, objectif autonomie", url: "https://factorymonaco.com/expertise/formation-ia" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Audit IA", description: "Cartographie des opportunités d'automatisation, priorisée par ROI", url: "https://quantamonaco.com/expertise/audit-strategie-ia" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Automatisation", description: "Extraction documentaire, classification, conformité, reporting", url: "https://quantamonaco.com/expertise/automatisation-processus" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "IA sur mesure", description: "Assistants juridiques, veille réglementaire, KYC augmenté", url: "https://quantamonaco.com/expertise/developpement-ia-sur-mesure" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing IA", description: "Sites web en 2 semaines, campagnes IA, acquisition digitale", url: "https://quantamonaco.com/expertise/marketing-acquisition" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outils internes", description: "CRM, dashboards, portails clients livrés 10x plus vite", url: "https://quantamonaco.com/expertise/outils-internes" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Formation IA", description: "Programmes calibrés sur vos cas d'usage, objectif autonomie", url: "https://quantamonaco.com/expertise/formation-ia" } },
         ],
       },
       aggregateRating: {
@@ -192,7 +192,7 @@ function JsonLd() {
           "@type": "Review",
           author: { "@type": "Person", name: "Directeur des opérations, SGP Monaco" },
           reviewRating: { "@type": "Rating", ratingValue: "5" },
-          reviewBody: "Factory a transformé notre façon de travailler. Ce qui prenait des jours se fait en minutes.",
+          reviewBody: "Quanta a transformé notre façon de travailler. Ce qui prenait des jours se fait en minutes.",
         },
         {
           "@type": "Review",
@@ -205,11 +205,11 @@ function JsonLd() {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Factory",
-      url: "https://factorymonaco.com",
+      name: "Quanta",
+      url: "https://quantamonaco.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://factorymonaco.com/blog?q={search_term_string}",
+        target: "https://quantamonaco.com/blog?q={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },

@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "gestion-avis-clients-hotellerie")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Un hôtel de luxe à Monaco répond désormais aux avis clients en 4 heures au lieu de 72 grâce à l'analyse de sentiment et aux réponses IA déployées par Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Un hôtel de luxe à Monaco répond désormais aux avis clients en 4 heures au lieu de 72 grâce à l'analyse de sentiment et aux réponses IA déployées par Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

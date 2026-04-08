@@ -8,7 +8,7 @@ const post = blogPosts.find((p) => p.slug === "roi-intelligence-artificielle-mes
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
+  alternates: { canonical: `https://quantamonaco.com/blog/${post.slug}` },
   openGraph: { title: post.title, description: post.description, type: "article", publishedTime: post.date, authors: ["Guillaume"] },
 };
 
@@ -78,7 +78,7 @@ export default function Article() {
       <h2>La méthodologie en 4 étapes</h2>
 
       <p>
-        Chez Factory, nous appliquons une méthodologie structurée pour chaque projet. Elle repose sur quatre phases distinctes qui garantissent une mesure fiable et reproductible. Cette méthodologie est issue de notre expérience sur plusieurs dizaines de projets dans la Principauté.
+        Chez Quanta, nous appliquons une méthodologie structurée pour chaque projet. Elle repose sur quatre phases distinctes qui garantissent une mesure fiable et reproductible. Cette méthodologie est issue de notre expérience sur plusieurs dizaines de projets dans la Principauté.
       </p>
 
       <h3>1. Établir la baseline (avant le projet)</h3>

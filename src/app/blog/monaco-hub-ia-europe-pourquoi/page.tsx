@@ -8,7 +8,7 @@ const post = blogPosts.find((p) => p.slug === "monaco-hub-ia-europe-pourquoi")!;
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
+  alternates: { canonical: `https://quantamonaco.com/blog/${post.slug}` },
   openGraph: {
     title: post.title,
     description: post.description,
@@ -246,10 +246,10 @@ export default function Article() {
         une legitimite naturelle.
       </p>
 
-      <h2>Le role de Factory dans cette ambition</h2>
+      <h2>Le role de Quanta dans cette ambition</h2>
 
       <p>
-        Chez Factory, nous sommes convaincus que Monaco a une carte a jouer
+        Chez Quanta, nous sommes convaincus que Monaco a une carte a jouer
         dans l&apos;ecosysteme IA europeen. Pas en tant que laboratoire de
         recherche fondamentale, mais en tant que terrain d&apos;application
         d&apos;excellence ou les technologies IA sont deployees pour creer de
@@ -318,7 +318,7 @@ export default function Article() {
           Le positionnement credible pour Monaco n&apos;est pas la recherche
           fondamentale mais l&apos;IA appliquee avec excellence aux secteurs de
           haute valeur (finance, luxe, immobilier, droit). C&apos;est cette
-          niche que Factory contribue a construire chaque jour
+          niche que Quanta contribue a construire chaque jour
         </li>
       </ul>
     </ArticleLayout>

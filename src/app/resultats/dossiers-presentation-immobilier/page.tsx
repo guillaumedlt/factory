@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "dossiers-presentation-immobilier")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Une agence immobilière de luxe à Monaco génère ses dossiers de présentation en 45 minutes au lieu d'une journée grâce à l'automatisation Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Une agence immobilière de luxe à Monaco génère ses dossiers de présentation en 45 minutes au lieu d'une journée grâce à l'automatisation Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

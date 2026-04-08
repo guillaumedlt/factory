@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "gestion-documentaire-bancaire")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Comment une société de gestion monégasque a automatisé le traitement de 150 relevés bancaires PDF par mois et récupéré 4 jours de travail grâce à Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Comment une société de gestion monégasque a automatisé le traitement de 150 relevés bancaires PDF par mois et récupéré 4 jours de travail grâce à Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

@@ -12,16 +12,16 @@ const models = [
 ];
 
 const initialSuggestions = [
-  "Que fait Factory ?",
+  "Que fait Quanta ?",
   "Combien ça coûte ?",
   "Quels sont vos délais ?",
 ];
 
 const knowledgeBase: { keywords: string[]; answer: string; followUp?: string[] }[] = [
   {
-    keywords: ["fait", "factory", "quoi", "activité", "service", "propose"],
+    keywords: ["fait", "quanta", "quoi", "activité", "service", "propose"],
     answer:
-      "Factory est un cabinet d'expertise IA basé à Monaco. Nous accompagnons les entreprises de la Principauté dans l'intégration opérationnelle de l'IA :\n\n→ Audit & stratégie IA\n→ Automatisation des processus\n→ Développement IA sur mesure\n→ Formation & appropriation\n\nNotre approche est pragmatique.nous transformons des processus concrets, pas des PowerPoints.",
+      "Quanta est un cabinet d'expertise IA basé à Monaco. Nous accompagnons les entreprises de la Principauté dans l'intégration opérationnelle de l'IA :\n\n→ Audit & stratégie IA\n→ Automatisation des processus\n→ Développement IA sur mesure\n→ Formation & appropriation\n\nNotre approche est pragmatique.nous transformons des processus concrets, pas des PowerPoints.",
     followUp: ["Combien ça coûte ?", "Comment ça se passe concrètement ?", "Quels secteurs ?"],
   },
   {
@@ -76,7 +76,7 @@ const knowledgeBase: { keywords: string[]; answer: string; followUp?: string[] }
     keywords: ["sécurité", "confidentialité", "rgpd", "donnée", "données", "confidentiel", "privacy"],
     answer:
       "La confidentialité est au fondement de notre pratique :\n\n→ Solutions conformes au RGPD et aux exigences de la CCAF\n→ Les données clients ne quittent jamais le périmètre convenu\n→ Hébergement sécurisé, pas de transfert vers des tiers\n→ Chaque solution intègre les contraintes de confidentialité propres à la Principauté\n\nNous signons systématiquement un accord de confidentialité avant toute intervention.",
-    followUp: ["Comment démarre-t-on ?", "Quels secteurs ?", "Que fait Factory ?"],
+    followUp: ["Comment démarre-t-on ?", "Quels secteurs ?", "Que fait Quanta ?"],
   },
   {
     keywords: ["formation", "former", "apprendre", "équipe", "compétence", "prompt", "appropriation"],
@@ -93,13 +93,13 @@ const knowledgeBase: { keywords: string[]; answer: string; followUp?: string[] }
   {
     keywords: ["guillaume", "fondateur", "qui êtes", "équipe", "cabinet"],
     answer:
-      "Factory est un cabinet d'expertise IA fondé à Monaco par Guillaume.\n\nNotre conviction : l'IA n'a de valeur que si elle s'inscrit dans la réalité opérationnelle d'une organisation. Nous conjuguons maîtrise technique des technologies de dernière génération et connaissance intime de l'environnement économique et réglementaire de la Principauté.\n\nChaque engagement commence par l'écoute.",
-    followUp: ["Comment démarre-t-on ?", "Que fait Factory ?", "Quels secteurs ?"],
+      "Quanta est un cabinet d'expertise IA fondé à Monaco par Guillaume.\n\nNotre conviction : l'IA n'a de valeur que si elle s'inscrit dans la réalité opérationnelle d'une organisation. Nous conjuguons maîtrise technique des technologies de dernière génération et connaissance intime de l'environnement économique et réglementaire de la Principauté.\n\nChaque engagement commence par l'écoute.",
+    followUp: ["Comment démarre-t-on ?", "Que fait Quanta ?", "Quels secteurs ?"],
   },
 ];
 
 const fallbackSuggestions = [
-  "Que fait Factory ?",
+  "Que fait Quanta ?",
   "Combien ça coûte ?",
   "Un exemple concret ?",
   "Comment démarre-t-on ?",
@@ -227,7 +227,7 @@ export default function AiChat() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && send(input)}
-            placeholder="Posez une question sur Factory..."
+            placeholder="Posez une question sur Quanta..."
             className="w-full bg-transparent text-white text-[13px] placeholder:text-white/25 outline-none"
           />
         </div>

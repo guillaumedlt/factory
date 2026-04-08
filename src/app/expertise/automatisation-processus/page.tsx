@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   title: "Automatisation des processus par IA à Monaco",
   description:
     "Automatisation intelligente pour entreprises monégasques. Extraction documentaire, classification, conformité KYC/AML et workflows orchestrés par IA.",
-  alternates: { canonical: "https://factorymonaco.com/expertise/automatisation-processus" },
+  alternates: { canonical: "https://quantamonaco.com/expertise/automatisation-processus" },
   openGraph: {
     title: "Automatisation des processus par IA à Monaco",
     description:
       "Automatisation intelligente pour entreprises monégasques. Extraction documentaire, classification, conformité KYC/AML et workflows orchestrés par IA.",
-    url: "https://factorymonaco.com/expertise/automatisation-processus",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/expertise/automatisation-processus",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -246,7 +246,7 @@ export default function AutomatisationProcessus() {
               <div className="p-7 rounded-2xl bg-surface border border-border">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2 h-2 rounded-full bg-foreground/20" />
-                  <span className="text-[11px] uppercase tracking-wider text-muted font-semibold">Sans Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-muted font-semibold">Sans Quanta</span>
                 </div>
                 <ul className="space-y-2">
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
@@ -274,7 +274,7 @@ export default function AutomatisationProcessus() {
               <div className="p-7 rounded-2xl bg-dark text-white border border-white/[0.06]">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Avec Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Avec Quanta</span>
                 </div>
                 <ul className="space-y-2">
                   <li className="text-[13px] text-white/60 flex items-start gap-2">

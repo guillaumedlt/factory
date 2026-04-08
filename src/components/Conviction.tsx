@@ -69,7 +69,7 @@ export default function Conviction() {
                 <div className="flex items-center gap-2.5">
                   <div className={`w-2 h-2 rounded-full transition-colors duration-500 ${isAfter ? "bg-accent" : "bg-foreground/20"}`} />
                   <span className={`text-[10px] uppercase tracking-wider font-semibold transition-colors duration-500 ${isAfter ? "text-white/40" : "text-muted"}`}>
-                    {isAfter ? "Avec Factory" : "Processus actuel"}
+                    {isAfter ? "Avec Quanta" : "Processus actuel"}
                   </span>
                 </div>
 

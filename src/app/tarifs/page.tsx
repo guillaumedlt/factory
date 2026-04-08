@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   title: "Tarifs et investissement IA",
   description:
     "Grilles tarifaires indicatives pour nos missions IA à Monaco. Audit, automatisation, développement sur mesure, formation. ROI dès les premiers mois.",
-  alternates: { canonical: "https://factorymonaco.com/tarifs" },
+  alternates: { canonical: "https://quantamonaco.com/tarifs" },
   openGraph: {
     title: "Tarifs et investissement IA",
     description:
       "Grilles tarifaires indicatives pour nos missions IA à Monaco. Audit, automatisation, développement sur mesure, formation. ROI dès les premiers mois.",
-    url: "https://factorymonaco.com/tarifs",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/tarifs",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },

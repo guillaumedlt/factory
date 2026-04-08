@@ -9,14 +9,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA gestion de patrimoine à Monaco",
   description:
-    "Automatisez conformite LCB-FT, KYC, reportings clients et echeanciers obligataires pour family offices et SGP a Monaco. Agents IA sur mesure.",
-  alternates: { canonical: "https://factorymonaco.com/secteurs/gestion-patrimoine" },
+    "Automatisez conformité LCB-FT, KYC, reportings clients et échéanciers obligataires pour family offices et SGP à Monaco. Agents IA sur mesure.",
+  alternates: { canonical: "https://quantamonaco.com/secteurs/gestion-patrimoine" },
   openGraph: {
     title: "IA gestion de patrimoine à Monaco",
     description:
-      "Automatisez conformite LCB-FT, KYC, reportings clients et echeanciers obligataires pour family offices et SGP a Monaco. Agents IA sur mesure.",
-    url: "https://factorymonaco.com/secteurs/gestion-patrimoine",
-    siteName: "Factory",
+      "Automatisez conformité LCB-FT, KYC, reportings clients et échéanciers obligataires pour family offices et SGP à Monaco. Agents IA sur mesure.",
+    url: "https://quantamonaco.com/secteurs/gestion-patrimoine",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -195,11 +195,11 @@ export default function GestionPatrimoinePage() {
         </div>
       </section>
 
-      {/* Comparaison Sans IA vs Avec Factory */}
+      {/* Comparaison Sans IA vs Avec Quanta */}
       <section className="section-padding section-surface">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-8 text-center">Sans IA vs Avec Factory</h2>
+            <h2 className="text-xl font-bold mb-8 text-center">Sans IA vs Avec Quanta</h2>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-6 rounded-2xl border border-red-200 bg-red-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-red-400 font-semibold mb-4">Sans IA</p>
@@ -212,7 +212,7 @@ export default function GestionPatrimoinePage() {
                 </ul>
               </div>
               <div className="p-6 rounded-2xl border border-emerald-200 bg-emerald-50/50">
-                <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Factory</p>
+                <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Quanta</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
                   <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Collecte automatisee avec relances a J+7 et J+14</li>
                   <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>95 % de completude documentaire sans effort</li>

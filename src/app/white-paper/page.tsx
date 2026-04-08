@@ -9,13 +9,13 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "L'IA dans la Principauté de Monaco : état des lieux, enjeux et feuille de route",
   description:
-    "White paper Factory. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle. Données, cas d'usage, méthodologie et recommandations.",
-  alternates: { canonical: "https://factorymonaco.com/white-paper" },
+    "White paper Quanta. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle. Données, cas d'usage, méthodologie et recommandations.",
+  alternates: { canonical: "https://quantamonaco.com/white-paper" },
   openGraph: {
     title: "L'IA dans la Principauté de Monaco : état des lieux, enjeux et feuille de route",
-    description: "White paper Factory. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle.",
-    url: "https://factorymonaco.com/white-paper",
-    siteName: "Factory",
+    description: "White paper Quanta. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle.",
+    url: "https://quantamonaco.com/white-paper",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "article",
   },
@@ -49,7 +49,7 @@ export default function WhitePaper() {
           <div className="flex flex-wrap items-center gap-4 text-[12px] text-white/30">
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-full bg-accent/15 flex items-center justify-center text-[9px] font-bold text-accent">GD</div>
-              <span>Par Guillaume Delachet, Factory</span>
+              <span>Par Guillaume Delachet, Quanta</span>
             </div>
             <span>·</span>
             <span>25 min de lecture</span>

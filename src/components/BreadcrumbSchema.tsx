@@ -10,7 +10,7 @@ export default function BreadcrumbSchema({
       "@type": "ListItem",
       position: i + 1,
       name: item.name,
-      item: `https://factorymonaco.com${item.url}`,
+      item: `https://quantamonaco.com${item.url}`,
     })),
   };
 

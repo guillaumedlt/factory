@@ -8,7 +8,7 @@ const post = blogPosts.find((p) => p.slug === "agent-ia-autonome-entreprise-mona
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
+  alternates: { canonical: `https://quantamonaco.com/blog/${post.slug}` },
   openGraph: {
     title: post.title,
     description: post.description,
@@ -175,7 +175,7 @@ export default function Article() {
         et la qualite du raisonnement sur des taches complexes. Pour les cas
         d&apos;usage ou la precision et la fiabilite sont critiques
         (conformite, juridique), c&apos;est l&apos;option que nous privilegions
-        chez Factory.
+        chez Quanta.
       </p>
 
       <h3>n8n et plateformes low-code</h3>

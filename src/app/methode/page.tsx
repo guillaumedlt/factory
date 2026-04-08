@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   title: "Notre méthode d'intervention",
   description:
     "Immersion, diagnostic, déploiement, transmission. Quatre phases pour intégrer l'IA dans votre organisation à Monaco avec rigueur et résultats mesurables.",
-  alternates: { canonical: "https://factorymonaco.com/methode" },
+  alternates: { canonical: "https://quantamonaco.com/methode" },
   openGraph: {
     title: "Notre méthode d'intervention",
     description:
       "Immersion, diagnostic, déploiement, transmission. Quatre phases pour intégrer l'IA dans votre organisation à Monaco avec rigueur et résultats mesurables.",
-    url: "https://factorymonaco.com/methode",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/methode",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -80,10 +80,10 @@ export default function MethodePage() {
           description: "Protocole en quatre phases pour transformer vos opérations avec l'intelligence artificielle.",
           totalTime: "P12W",
           step: [
-            { "@type": "HowToStep", name: "Immersion", text: "Entretiens individuels avec chaque partie prenante. Observation des processus en conditions réelles. Cartographie des flux documentaires et points de friction.", url: "https://factorymonaco.com/methode#section-immersion" },
-            { "@type": "HowToStep", name: "Diagnostic", text: "Analyse structurée de chaque processus selon cinq critères : volume, fréquence, complexité, potentiel d'automatisation et contraintes réglementaires.", url: "https://factorymonaco.com/methode#section-diagnostic" },
-            { "@type": "HowToStep", name: "Déploiement", text: "Mise en œuvre des solutions retenues, en commençant par les leviers à fort impact et faible complexité. Cycle court : prototype, test, ajustement, production.", url: "https://factorymonaco.com/methode#section-deploiement" },
-            { "@type": "HowToStep", name: "Transmission", text: "Formation approfondie des équipes. Documentation complète. Mise en place d'indicateurs de suivi. Objectif : autonomie totale de votre organisation.", url: "https://factorymonaco.com/methode#section-transmission" },
+            { "@type": "HowToStep", name: "Immersion", text: "Entretiens individuels avec chaque partie prenante. Observation des processus en conditions réelles. Cartographie des flux documentaires et points de friction.", url: "https://quantamonaco.com/methode#section-immersion" },
+            { "@type": "HowToStep", name: "Diagnostic", text: "Analyse structurée de chaque processus selon cinq critères : volume, fréquence, complexité, potentiel d'automatisation et contraintes réglementaires.", url: "https://quantamonaco.com/methode#section-diagnostic" },
+            { "@type": "HowToStep", name: "Déploiement", text: "Mise en œuvre des solutions retenues, en commençant par les leviers à fort impact et faible complexité. Cycle court : prototype, test, ajustement, production.", url: "https://quantamonaco.com/methode#section-deploiement" },
+            { "@type": "HowToStep", name: "Transmission", text: "Formation approfondie des équipes. Documentation complète. Mise en place d'indicateurs de suivi. Objectif : autonomie totale de votre organisation.", url: "https://quantamonaco.com/methode#section-transmission" },
           ],
         }) }}
       />
@@ -239,7 +239,7 @@ export default function MethodePage() {
               <div className="p-7 rounded-2xl bg-dark text-white border border-white/[0.06]">
                 <div className="flex items-center gap-2 mb-5">
                   <div className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Méthode Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Méthode Quanta</span>
                 </div>
                 <ul className="space-y-3">
                   {[

@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   title: "Secteurs d'intervention IA à Monaco",
   description:
     "Gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce, santé, services professionnels. L'IA pour Monaco.",
-  alternates: { canonical: "https://factorymonaco.com/secteurs" },
+  alternates: { canonical: "https://quantamonaco.com/secteurs" },
   openGraph: {
     title: "Secteurs d'intervention IA à Monaco",
     description:
       "Gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce, santé, services professionnels. L'IA pour Monaco.",
-    url: "https://factorymonaco.com/secteurs",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/secteurs",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -138,7 +138,7 @@ export default function SecteursPage() {
         </div>
       </section>
 
-      {/* Comparison: generic vs Factory */}
+      {/* Comparison: generic vs Quanta */}
       <section className="section-padding section-surface">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
@@ -168,7 +168,7 @@ export default function SecteursPage() {
               <div className="p-7 rounded-2xl bg-dark text-white border border-white/[0.06]">
                 <div className="flex items-center gap-2 mb-5">
                   <div className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Factory à Monaco</span>
+                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Quanta à Monaco</span>
                 </div>
                 <ul className="space-y-3">
                   {[

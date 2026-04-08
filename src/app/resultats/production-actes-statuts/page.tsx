@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "production-actes-statuts")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Un cabinet juridique monégasque réduit de 80 % le temps de rédaction de statuts grâce à un assistant IA calibré sur le droit monégasque par Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Un cabinet juridique monégasque réduit de 80 % le temps de rédaction de statuts grâce à un assistant IA calibré sur le droit monégasque par Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

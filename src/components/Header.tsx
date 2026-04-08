@@ -48,7 +48,7 @@ export default function Header() {
         scrolled ? "bg-dark/95 backdrop-blur-md shadow-xl shadow-black/10" : "bg-dark"
       }`}>
         <Link href="/" className="text-white text-[15px] font-semibold tracking-tight">
-          Factory<span className="text-accent text-[10px] align-top ml-0.5">&#8482;</span>
+          Quanta<span className="text-accent text-[10px] align-top ml-0.5">&#8482;</span>
         </Link>
 
         {/* Desktop nav */}

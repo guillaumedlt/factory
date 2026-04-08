@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "reporting-client-trimestriel")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Un family office monégasque économise 6 jours par an en automatisant la génération de ses rapports trimestriels clients grâce aux solutions Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Un family office monégasque économise 6 jours par an en automatisant la génération de ses rapports trimestriels clients grâce aux solutions Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

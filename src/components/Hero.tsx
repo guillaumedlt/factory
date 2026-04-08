@@ -24,7 +24,7 @@ export default function Hero() {
           </h1>
 
           <p className="animate-fade-up delay-200 text-[15px] text-foreground/60 max-w-xl mx-auto mb-8 leading-relaxed">
-            Factory est un cabinet d&apos;expertise dédié à l&apos;intégration opérationnelle de l&apos;IA dans les organisations de la Principauté. Nous intervenons là où la technologie rencontre la réalité de vos métiers.
+            Quanta est un cabinet d&apos;expertise dédié à l&apos;intégration opérationnelle de l&apos;IA dans les organisations de la Principauté. Nous intervenons là où la technologie rencontre la réalité de vos métiers.
           </p>
 
           <div className="animate-fade-up delay-300 flex flex-wrap items-center justify-center gap-3">

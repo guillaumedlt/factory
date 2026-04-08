@@ -1,9 +1,9 @@
-# Factory — Cabinet d'Expertise IA à Monaco
+# Quanta — Cabinet d'Expertise IA à Monaco
 
-> Factory est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques. Fondé par Guillaume Delachet. Basé dans la Principauté de Monaco.
+> Quanta est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques. Fondé par Guillaume Delachet. Basé dans la Principauté de Monaco.
 
 ## À propos
-Factory accompagne les entreprises de Monaco dans leur transformation IA : audit de processus, automatisation documentaire, développement sur mesure (assistants juridiques droit monégasque, KYC augmenté, veille réglementaire), marketing digital, outils internes et formation. Expertise sectorielle : gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce de luxe, santé, services professionnels. Connaissance intime de l'environnement réglementaire monégasque (SICCFIN, CCAF, loi n°1.565, loi n°1.362).
+Quanta accompagne les entreprises de Monaco dans leur transformation IA : audit de processus, automatisation documentaire, développement sur mesure (assistants juridiques droit monégasque, KYC augmenté, veille réglementaire), marketing digital, outils internes et formation. Expertise sectorielle : gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce de luxe, santé, services professionnels. Connaissance intime de l'environnement réglementaire monégasque (SICCFIN, CCAF, loi n°1.565, loi n°1.362).
 
 ## Résultats documentés
 - 4 jours/mois récupérés sur la gestion documentaire (société de gestion)
@@ -59,19 +59,25 @@ Quatre phases : Immersion (1-2 semaines), Diagnostic (1 semaine), Déploiement (
 - Gestion des avis clients hôtellerie : /resultats/gestion-avis-clients-hotellerie
 - Campagnes email commerce de luxe : /resultats/campagnes-email-commerce-luxe
 
-## Blog (10 articles)
-- IA à Monaco : état des lieux 2026 : /blog/ia-monaco-etat-des-lieux-2026
-- Automatiser la conformité LCB-FT : /blog/automatiser-conformite-lcb-ft-monaco
-- IA et gestion de patrimoine : /blog/ia-gestion-patrimoine-monaco
-- IA et droit monégasque : /blog/ia-cabinets-avocats-droit-monegasque
-- Créer un site web en 2 semaines : /blog/creer-site-web-ia-2-semaines
-- ROI de l'IA : /blog/roi-intelligence-artificielle-mesurer-gains
-- KYC augmenté par IA : /blog/kyc-augmente-ia-banque-privee
-- Former ses équipes à l'IA : /blog/former-equipes-ia-generative
+## Blog
 - 5 processus rentables à automatiser : /blog/5-processus-rentables-automatiser
+- Agents IA autonomes pour entreprises monégasques : /blog/agent-ia-autonome-entreprise-monaco
+- Automatiser la conformité LCB-FT : /blog/automatiser-conformite-lcb-ft-monaco
+- Créer un site web en 2 semaines : /blog/creer-site-web-ia-2-semaines
+- Extended Monaco : programme digital de la Principauté : /blog/extended-monaco-programme-digital-principaute
+- Family offices Monaco : digitalisation par l'IA : /blog/family-office-monaco-digitalisation-ia
+- Former ses équipes à l'IA : /blog/former-equipes-ia-generative
+- IA à Monaco : état des lieux 2026 : /blog/ia-monaco-etat-des-lieux-2026
+- IA et droit monégasque pour les cabinets d'avocats : /blog/ia-cabinets-avocats-droit-monegasque
+- IA et gestion de patrimoine : /blog/ia-gestion-patrimoine-monaco
+- IA générative à Monaco : opportunités et risques : /blog/ia-generative-monaco-opportunites-risques
 - Immobilier de luxe et IA : /blog/immobilier-luxe-ia-monaco
+- KYC augmenté par IA dans la banque privée : /blog/kyc-augmente-ia-banque-privee
+- Monaco peut-il devenir un hub IA en Europe ? : /blog/monaco-hub-ia-europe-pourquoi
+- RGPD et IA à Monaco : loi n°1.565 : /blog/rgpd-donnees-personnelles-ia-monaco
+- ROI de l'IA : /blog/roi-intelligence-artificielle-mesurer-gains
 
 ## Contact
 - WhatsApp : +33 6 45 63 61 07
 - Localisation : Principauté de Monaco
-- Site : https://factorymonaco.com
+- Site : https://quantamonaco.com

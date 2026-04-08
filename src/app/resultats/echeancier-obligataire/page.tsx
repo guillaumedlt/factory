@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "echeancier-obligataire")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Une société de gestion à Monaco génère désormais son échéancier obligataire en un clic au lieu d'une demi-journée grâce à l'extraction PDF automatisée par Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Une société de gestion à Monaco génère désormais son échéancier obligataire en un clic au lieu d'une demi-journée grâce à l'extraction PDF automatisée par Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

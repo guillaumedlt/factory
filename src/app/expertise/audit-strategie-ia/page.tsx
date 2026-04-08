@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   title: "Audit & stratégie IA à Monaco",
   description:
     "Audit IA approfondi pour entreprises à Monaco. Cartographie des processus, identification des opportunités d'automatisation et feuille de route priorisée par ROI.",
-  alternates: { canonical: "https://factorymonaco.com/expertise/audit-strategie-ia" },
+  alternates: { canonical: "https://quantamonaco.com/expertise/audit-strategie-ia" },
   openGraph: {
     title: "Audit & stratégie IA à Monaco",
     description:
       "Audit IA approfondi pour entreprises à Monaco. Cartographie des processus, identification des opportunités d'automatisation et feuille de route priorisée par ROI.",
-    url: "https://factorymonaco.com/expertise/audit-strategie-ia",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/expertise/audit-strategie-ia",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -66,7 +66,7 @@ const faqItems = [
     a: "Non. Notre audit est conçu pour des entreprises qui n'ont pas d'équipe technique dédiée à l'IA. Nous intervenons auprès de vos équipes métier (direction, opérations, conformité, administration) et traduisons leurs besoins en solutions techniques. Les livrables sont rédigés dans un langage accessible, avec des recommandations que n'importe quel dirigeant peut comprendre et valider.",
   },
   {
-    q: "Quels sont les livrables concrets d'un audit IA Factory ?",
+    q: "Quels sont les livrables concrets d'un audit IA Quanta ?",
     a: "Vous recevez trois documents : un rapport d'audit complet (état des lieux des processus, inefficacités identifiées, benchmarks sectoriels), une matrice d'opportunités (tableau de priorisation croisant impact business, complexité et délai, avec estimation du ROI à 6 et 12 mois), et une feuille de route IA trimestrielle sur 12 mois (projets à lancer, ressources nécessaires, dépendances et jalons de validation).",
   },
   {
@@ -246,7 +246,7 @@ export default function AuditStrategieIA() {
               <div className="p-7 rounded-2xl bg-surface border border-border">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2 h-2 rounded-full bg-foreground/20" />
-                  <span className="text-[11px] uppercase tracking-wider text-muted font-semibold">Sans Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-muted font-semibold">Sans Quanta</span>
                 </div>
                 <ul className="space-y-2">
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
@@ -274,7 +274,7 @@ export default function AuditStrategieIA() {
               <div className="p-7 rounded-2xl bg-dark text-white border border-white/[0.06]">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Avec Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Avec Quanta</span>
                 </div>
                 <ul className="space-y-2">
                   <li className="text-[13px] text-white/60 flex items-start gap-2">

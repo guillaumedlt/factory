@@ -3,7 +3,7 @@ import { blogPosts } from "@/lib/blog";
 import { caseStudies } from "@/lib/cases";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://factorymonaco.com";
+  const base = "https://quantamonaco.com";
   const now = new Date("2026-03-23");
 
   const expertises = [
@@ -29,6 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/glossaire`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/white-paper`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/mentions-legales`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${base}/politique-confidentialite`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     ...expertises.map((slug) => ({
       url: `${base}/expertise/${slug}`,
       lastModified: now,

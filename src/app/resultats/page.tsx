@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   title: "Résultats et cas clients",
   description:
     "Résultats documentés de nos missions IA à Monaco. Sociétés de gestion, cabinets juridiques, immobilier, hôtellerie : découvrez les gains concrets.",
-  alternates: { canonical: "https://factorymonaco.com/resultats" },
+  alternates: { canonical: "https://quantamonaco.com/resultats" },
   openGraph: {
     title: "Résultats et cas clients",
     description:
       "Résultats documentés de nos missions IA à Monaco. Sociétés de gestion, cabinets juridiques, immobilier, hôtellerie : découvrez les gains concrets.",
-    url: "https://factorymonaco.com/resultats",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/resultats",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -116,7 +116,7 @@ export default function ResultatsPage() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                 </svg>
                 <p className="text-white/60 text-[15px] leading-relaxed mb-4">
-                  Factory a transformé notre façon de travailler. Ce qui prenait des jours se fait en minutes. Et surtout, nos équipes ont compris et adopté les outils.
+                  Quanta a transformé notre façon de travailler. Ce qui prenait des jours se fait en minutes. Et surtout, nos équipes ont compris et adopté les outils.
                 </p>
                 <p className="text-white/40 text-[13px]">Directeur des opérations, société de gestion monégasque</p>
               </div>

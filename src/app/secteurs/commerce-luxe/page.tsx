@@ -7,16 +7,16 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "IA pour le commerce de luxe a Monaco | Factory AI",
+  title: "IA pour le commerce de luxe a Monaco | Quanta AI",
   description:
     "CRM augmente, stocks predictifs, clienteling automatise et campagnes personnalisees pour les boutiques de luxe du Carre d'Or a Monaco.",
-  alternates: { canonical: "https://factorymonaco.com/secteurs/commerce-luxe" },
+  alternates: { canonical: "https://quantamonaco.com/secteurs/commerce-luxe" },
   openGraph: {
-    title: "IA pour le commerce de luxe a Monaco | Factory AI",
+    title: "IA pour le commerce de luxe a Monaco | Quanta AI",
     description:
       "CRM augmente, stocks predictifs, clienteling automatise et campagnes personnalisees pour les boutiques de luxe du Carre d'Or a Monaco.",
-    url: "https://factorymonaco.com/secteurs/commerce-luxe",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/secteurs/commerce-luxe",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -218,7 +218,7 @@ export default function CommerceLuxePage() {
               <div className="p-7 rounded-2xl bg-dark text-white border border-white/[0.06]">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Avec Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Avec Quanta</span>
                 </div>
                 <ul className="space-y-2">
                   <li className="text-[13px] text-white/60 flex items-start gap-2">

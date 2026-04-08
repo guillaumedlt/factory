@@ -4,16 +4,16 @@ import PageHeader from "@/components/PageHeader";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
 export const metadata: Metadata = {
-  title: "Le cabinet Factory",
+  title: "Le cabinet Quanta",
   description:
-    "Factory est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
-  alternates: { canonical: "https://factorymonaco.com/cabinet" },
+    "Quanta est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
+  alternates: { canonical: "https://quantamonaco.com/cabinet" },
   openGraph: {
-    title: "Le cabinet Factory",
+    title: "Le cabinet Quanta",
     description:
-      "Factory est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
-    url: "https://factorymonaco.com/cabinet",
-    siteName: "Factory",
+      "Quanta est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
+    url: "https://quantamonaco.com/cabinet",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -24,7 +24,7 @@ export default function CabinetPage() {
     <PageLayout>
       <PageHeader
         tag="Le cabinet"
-        title="Factory."
+        title="Quanta."
         description="Cabinet d'expertise en intelligence artificielle fondé à Monaco par Guillaume."
       />
 

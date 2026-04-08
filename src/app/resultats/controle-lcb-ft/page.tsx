@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "controle-lcb-ft")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Une société de gestion monégasque réduit de 90 % le temps de vérification LCB-FT grâce au filtrage automatisé et au scoring de risque déployés par Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Une société de gestion monégasque réduit de 90 % le temps de vérification LCB-FT grâce au filtrage automatisé et au scoring de risque déployés par Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

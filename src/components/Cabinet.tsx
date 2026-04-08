@@ -25,7 +25,7 @@ export default function Cabinet() {
           {/* Left: title + principles */}
           <div>
             <span className="text-[11px] uppercase tracking-[0.2em] text-accent font-semibold">Le cabinet</span>
-            <h2 className="text-[1.75rem] sm:text-3xl font-bold mt-3 mb-6 tracking-tight">Factory.</h2>
+            <h2 className="text-[1.75rem] sm:text-3xl font-bold mt-3 mb-6 tracking-tight">Quanta.</h2>
             <p className="text-white/45 text-[14px] leading-relaxed mb-8">
               Cabinet d&apos;expertise IA fondé à Monaco par Guillaume. Maîtrise technique de dernière génération, connaissance intime de l&apos;environnement réglementaire de la Principauté.
             </p>
@@ -58,11 +58,11 @@ export default function Cabinet() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-dark text-[11px] font-bold">G</div>
               <div>
                 <div className="text-[13px] font-semibold text-white/80">Guillaume</div>
-                <div className="text-[11px] text-white/30">Fondateur, Factory</div>
+                <div className="text-[11px] text-white/30">Fondateur, Quanta</div>
               </div>
             </div>
             <Link href="/cabinet" className="group text-[12px] font-medium text-accent hover:underline inline-flex items-center gap-1 mt-4">
-              En savoir plus sur Factory
+              En savoir plus sur Quanta
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
             </Link>
           </div>

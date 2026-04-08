@@ -10,7 +10,7 @@ const post = blogPosts.find(
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
+  alternates: { canonical: `https://quantamonaco.com/blog/${post.slug}` },
   openGraph: {
     title: post.title,
     description: post.description,

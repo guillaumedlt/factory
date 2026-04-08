@@ -3,9 +3,19 @@ import PageLayout from "@/components/PageLayout";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité",
-  description: "Politique de confidentialité de Factory (factorymonaco.com). Traitement des données personnelles, droits des utilisateurs, conformité RGPD et loi monégasque.",
-  alternates: { canonical: "https://factorymonaco.com/politique-confidentialite" },
+  title: "Politique de confidentialité — Quanta Monaco",
+  description:
+    "Politique de confidentialité de Quanta : traitement des données personnelles, droits RGPD et conformité à la loi monégasque n°1.565 sur la protection des données.",
+  alternates: { canonical: "https://quantamonaco.com/politique-confidentialite" },
+  openGraph: {
+    title: "Politique de confidentialité — Quanta Monaco",
+    description:
+      "Politique de confidentialité de Quanta : traitement des données personnelles, droits RGPD et conformité à la loi monégasque n°1.565 sur la protection des données.",
+    url: "https://quantamonaco.com/politique-confidentialite",
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function PolitiqueConfidentialite() {
@@ -13,14 +23,14 @@ export default function PolitiqueConfidentialite() {
     <PageLayout>
       <PageHeader tag="Légal" title="Politique de confidentialité" description="" />
       <section className="section-padding section-light">
-        <div className="max-w-3xl mx-auto px-6 prose-factory">
+        <div className="max-w-3xl mx-auto px-6 prose-quanta">
           <p><strong>Dernière mise à jour : mars 2026</strong></p>
 
           <h2>Responsable du traitement</h2>
           <p>
             <strong>Ceres Growth Marketing SAS</strong><br />
             128 rue de la Boétie, 75008 Paris, France<br />
-            Marque commerciale : Factory<br />
+            Marque commerciale : Quanta<br />
             Antenne : The Office, Principauté de Monaco<br />
             Responsable : Guillaume Delachet
           </p>
@@ -50,7 +60,7 @@ export default function PolitiqueConfidentialite() {
 
           <h2>Destinataires des données</h2>
           <p>
-            Vos données sont transmises uniquement à l&apos;équipe Factory (Ceres Growth Marketing SAS). Elles ne sont jamais vendues, louées ou partagées avec des tiers à des fins commerciales.
+            Vos données sont transmises uniquement à l&apos;équipe Quanta (Ceres Growth Marketing SAS). Elles ne sont jamais vendues, louées ou partagées avec des tiers à des fins commerciales.
           </p>
           <p>
             Le service d&apos;envoi d&apos;emails est assuré par <strong>Resend</strong> (resend.com), qui agit en qualité de sous-traitant technique. Les emails sont traités conformément à leur politique de confidentialité et hébergés dans l&apos;Union européenne.

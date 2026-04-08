@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title: "Glossaire IA et termes techniques",
   description:
     "Définitions claires des termes clés de l'intelligence artificielle et de la réglementation monégasque. KYC, LCB-FT, LLM, RAG, OCR et plus.",
-  alternates: { canonical: "https://factorymonaco.com/glossaire" },
+  alternates: { canonical: "https://quantamonaco.com/glossaire" },
   openGraph: {
     title: "Glossaire IA et termes techniques",
     description:
       "Définitions claires des termes clés de l'intelligence artificielle et de la réglementation monégasque. KYC, LCB-FT, LLM, RAG, OCR et plus.",
-    url: "https://factorymonaco.com/glossaire",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/glossaire",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -41,7 +41,7 @@ const terms: { term: string; definition: string; link?: string }[] = [
   {
     term: "Claude",
     definition:
-      "Modèle de langage développé par Anthropic, conçu pour être fiable, sûr et précis. Utilisé par Factory dans de nombreuses missions pour la rédaction assistée, l'analyse documentaire et le développement d'agents IA spécialisés.",
+      "Modèle de langage développé par Anthropic, conçu pour être fiable, sûr et précis. Utilisé par Quanta dans de nombreuses missions pour la rédaction assistée, l'analyse documentaire et le développement d'agents IA spécialisés.",
   },
   {
     term: "Computer Vision",
@@ -83,7 +83,7 @@ const terms: { term: string; definition: string; link?: string }[] = [
   {
     term: "Formation IA",
     definition:
-      "Programme de montée en compétence des équipes sur les outils et méthodes de l'intelligence artificielle. Chez Factory, chaque formation est adaptée au niveau des participants et à leurs cas d'usage métier concrets.",
+      "Programme de montée en compétence des équipes sur les outils et méthodes de l'intelligence artificielle. Chez Quanta, chaque formation est adaptée au niveau des participants et à leurs cas d'usage métier concrets.",
     link: "/expertise/formation-ia",
   },
   {
@@ -152,7 +152,7 @@ const terms: { term: string; definition: string; link?: string }[] = [
   {
     term: "n8n",
     definition:
-      "Plateforme d'automatisation open source permettant de connecter des applications et de créer des workflows automatisés sans code. Factory utilise n8n pour concevoir des automatisations robustes et maintenables intégrées à votre écosystème technique.",
+      "Plateforme d'automatisation open source permettant de connecter des applications et de créer des workflows automatisés sans code. Quanta utilise n8n pour concevoir des automatisations robustes et maintenables intégrées à votre écosystème technique.",
     link: "/expertise/automatisation-processus",
   },
   {
@@ -191,12 +191,12 @@ const terms: { term: string; definition: string; link?: string }[] = [
   {
     term: "RGPD",
     definition:
-      "Règlement Général sur la Protection des Données. Cadre réglementaire européen encadrant la collecte et le traitement des données personnelles. Toutes les solutions déployées par Factory respectent le RGPD et les réglementations monégasques équivalentes.",
+      "Règlement Général sur la Protection des Données. Cadre réglementaire européen encadrant la collecte et le traitement des données personnelles. Toutes les solutions déployées par Quanta respectent le RGPD et les réglementations monégasques équivalentes.",
   },
   {
     term: "ROI",
     definition:
-      "Return On Investment (retour sur investissement). Indicateur mesurant la rentabilité d'un investissement. Chez Factory, chaque mission est associée à des métriques de ROI définies en amont et mesurées tout au long du projet.",
+      "Return On Investment (retour sur investissement). Indicateur mesurant la rentabilité d'un investissement. Chez Quanta, chaque mission est associée à des métriques de ROI définies en amont et mesurées tout au long du projet.",
   },
   {
     term: "SASURE",
@@ -222,7 +222,7 @@ const terms: { term: string; definition: string; link?: string }[] = [
   {
     term: "Transfert de compétences",
     definition:
-      "Phase finale de chaque mission Factory, au cours de laquelle nous formons vos équipes et documentons l'intégralité des solutions déployées. L'objectif est votre autonomie totale, sans dépendance à un prestataire externe.",
+      "Phase finale de chaque mission Quanta, au cours de laquelle nous formons vos équipes et documentons l'intégralité des solutions déployées. L'objectif est votre autonomie totale, sans dépendance à un prestataire externe.",
     link: "/methode",
   },
 ];

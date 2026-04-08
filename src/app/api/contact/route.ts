@@ -16,12 +16,12 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "Factory <onboarding@resend.dev>",
+      from: "Quanta <onboarding@resend.dev>",
       to: "delachetg@gmail.com",
-      subject: `[Factory] Nouveau contact : ${name}${company ? ` (${company})` : ""}`,
+      subject: `[Quanta] Nouveau contact : ${name}${company ? ` (${company})` : ""}`,
       html: `
         <div style="font-family:sans-serif;max-width:600px;">
-          <h2 style="color:#1a1a1a;">Nouveau message depuis factorymonaco.com</h2>
+          <h2 style="color:#1a1a1a;">Nouveau message depuis quantamonaco.com</h2>
           <table style="width:100%;border-collapse:collapse;margin:20px 0;">
             <tr><td style="padding:8px 12px;background:#f6f6f1;font-weight:600;width:120px;">Nom</td><td style="padding:8px 12px;">${name}</td></tr>
             <tr><td style="padding:8px 12px;background:#f6f6f1;font-weight:600;">Société</td><td style="padding:8px 12px;">${company || "Non précisé"}</td></tr>
@@ -31,7 +31,7 @@ export async function POST(request: Request) {
           <div style="background:#f6f6f1;padding:16px;border-radius:8px;margin:20px 0;">
             <p style="margin:0;white-space:pre-wrap;">${message}</p>
           </div>
-          <p style="color:#888;font-size:12px;">Envoyé depuis le formulaire de contact factorymonaco.com</p>
+          <p style="color:#888;font-size:12px;">Envoyé depuis le formulaire de contact quantamonaco.com</p>
         </div>
       `,
       replyTo: email,

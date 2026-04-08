@@ -8,7 +8,7 @@ const post = blogPosts.find((p) => p.slug === "creer-site-web-ia-2-semaines")!;
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
+  alternates: { canonical: `https://quantamonaco.com/blog/${post.slug}` },
   openGraph: { title: post.title, description: post.description, type: "article", publishedTime: post.date, authors: ["Guillaume"] },
 };
 
@@ -20,7 +20,7 @@ export default function Article() {
       </p>
 
       <p>
-        Ce n&apos;est pas une promesse marketing. C&apos;est une réalité que nous constatons chaque semaine chez Factory, où nous accompagnons des entreprises monégasques dans la conception de leurs outils numériques. Les chiffres parlent d&apos;eux-mêmes : nos derniers projets web affichent un temps moyen de livraison de <strong>11 jours ouvrés</strong>, avec des scores Lighthouse supérieurs à 95/100.
+        Ce n&apos;est pas une promesse marketing. C&apos;est une réalité que nous constatons chaque semaine chez Quanta, où nous accompagnons des entreprises monégasques dans la conception de leurs outils numériques. Les chiffres parlent d&apos;eux-mêmes : nos derniers projets web affichent un temps moyen de livraison de <strong>11 jours ouvrés</strong>, avec des scores Lighthouse supérieurs à 95/100.
       </p>
 
       <h2>Le site web professionnel : un projet qui ne devrait plus prendre 3 mois</h2>
@@ -79,10 +79,10 @@ export default function Article() {
       <h2>Agence traditionnelle vs. processus augmenté par l&apos;IA</h2>
 
       <p>
-        La différence entre une agence web classique et un processus assisté par l&apos;IA ne se résume pas à la vitesse. C&apos;est l&apos;ensemble de la chaîne de valeur qui est repensée. Voici le planning type d&apos;un projet Factory comparé au calendrier d&apos;une agence traditionnelle.
+        La différence entre une agence web classique et un processus assisté par l&apos;IA ne se résume pas à la vitesse. C&apos;est l&apos;ensemble de la chaîne de valeur qui est repensée. Voici le planning type d&apos;un projet Quanta comparé au calendrier d&apos;une agence traditionnelle.
       </p>
 
-      <h3>Le planning Factory : 12 jours ouvrés</h3>
+      <h3>Le planning Quanta : 12 jours ouvrés</h3>
       <ul>
         <li><strong>Brief et stratégie (Jour 1-2)</strong> : L&apos;IA analyse votre secteur, vos concurrents et les mots-clés stratégiques pour définir l&apos;architecture du site. Ce travail de recherche, qui prend habituellement une semaine, est compressé en deux jours.</li>
         <li><strong>Design et prototypage (Jour 3-5)</strong> : Les maquettes sont générées par IA puis affinées par un designer. Trois propositions visuelles en 48 heures, contre 2 à 3 semaines en mode traditionnel.</li>
@@ -273,7 +273,7 @@ export default function Article() {
       </ul>
 
       <p>
-        Pour les entreprises de Monaco qui veulent avancer vite sans compromis sur la qualité, c&apos;est aujourd&apos;hui le standard. Découvrez comment Factory peut vous accompagner avec un <Link href="/expertise/audit-strategie-ia" className="text-accent hover:underline">audit stratégique IA</Link> adapté à votre contexte, ou explorez nos cas d&apos;usage dans l&apos;article consacré aux <Link href="/blog/5-processus-rentables-automatiser" className="text-accent hover:underline">5 processus les plus rentables à automatiser par IA</Link>.
+        Pour les entreprises de Monaco qui veulent avancer vite sans compromis sur la qualité, c&apos;est aujourd&apos;hui le standard. Découvrez comment Quanta peut vous accompagner avec un <Link href="/expertise/audit-strategie-ia" className="text-accent hover:underline">audit stratégique IA</Link> adapté à votre contexte, ou explorez nos cas d&apos;usage dans l&apos;article consacré aux <Link href="/blog/5-processus-rentables-automatiser" className="text-accent hover:underline">5 processus les plus rentables à automatiser par IA</Link>.
       </p>
     </ArticleLayout>
   );

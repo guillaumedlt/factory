@@ -75,7 +75,7 @@ export default function CaseLayout({
               <div className="p-8 rounded-2xl bg-dark text-white border border-white/[0.06]">
                 <div className="flex items-center gap-2 mb-5">
                   <div className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Après intervention Factory</span>
+                  <span className="text-[11px] uppercase tracking-wider text-white/40 font-semibold">Après intervention Quanta</span>
                 </div>
                 <p className="text-white/60 text-[14px] leading-relaxed">{caseStudy.after}</p>
               </div>

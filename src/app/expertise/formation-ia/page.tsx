@@ -12,14 +12,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Formation IA pour entreprises à Monaco",
   description:
-    "Formations IA sur mesure pour vos equipes a Monaco : prompt engineering, outils metier, IA generative. Objectif autonomie et gains de productivite.",
-  alternates: { canonical: "https://factorymonaco.com/expertise/formation-ia" },
+    "Formations IA sur mesure pour vos équipes à Monaco : prompt engineering, outils métier, IA générative. Objectif autonomie et gains de productivité.",
+  alternates: { canonical: "https://quantamonaco.com/expertise/formation-ia" },
   openGraph: {
     title: "Formation IA pour entreprises à Monaco",
     description:
-      "Formations IA sur mesure pour vos equipes a Monaco : prompt engineering, outils metier, IA generative. Objectif autonomie et gains de productivite.",
-    url: "https://factorymonaco.com/expertise/formation-ia",
-    siteName: "Factory",
+      "Formations IA sur mesure pour vos équipes à Monaco : prompt engineering, outils métier, IA générative. Objectif autonomie et gains de productivité.",
+    url: "https://quantamonaco.com/expertise/formation-ia",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -213,14 +213,14 @@ export default function FormationIA() {
         </div>
       </section>
 
-      {/* Comparaison Sans / Avec Factory */}
+      {/* Comparaison Sans / Avec Quanta */}
       <section className="section-padding section-light">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-8 text-center">Ce qui change avec Factory</h2>
+            <h2 className="text-xl font-bold mb-8 text-center">Ce qui change avec Quanta</h2>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-7 rounded-2xl bg-surface border border-border">
-                <h3 className="text-[13px] font-semibold text-muted mb-4 uppercase tracking-wide">Sans Factory</h3>
+                <h3 className="text-[13px] font-semibold text-muted mb-4 uppercase tracking-wide">Sans Quanta</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-[13px] text-foreground/60">
                     <span className="text-red-400 mt-0.5 shrink-0">&#x2715;</span>
@@ -245,7 +245,7 @@ export default function FormationIA() {
                 </ul>
               </div>
               <div className="p-7 rounded-2xl bg-dark text-white">
-                <h3 className="text-[13px] font-semibold text-white/50 mb-4 uppercase tracking-wide">Avec Factory</h3>
+                <h3 className="text-[13px] font-semibold text-white/50 mb-4 uppercase tracking-wide">Avec Quanta</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-[13px] text-white/70">
                     <span className="text-accent mt-0.5 shrink-0">&#x2713;</span>

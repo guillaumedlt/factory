@@ -3,9 +3,19 @@ import PageLayout from "@/components/PageLayout";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Mentions légales",
-  description: "Mentions légales du site factorymonaco.com. Informations sur l'éditeur, l'hébergeur et les conditions d'utilisation.",
-  alternates: { canonical: "https://factorymonaco.com/mentions-legales" },
+  title: "Mentions légales — Quanta Cabinet d'expertise IA Monaco",
+  description:
+    "Mentions légales de Quanta : informations sur l'éditeur du site, l'hébergeur, la propriété intellectuelle et les coordonnées de contact à Monaco.",
+  alternates: { canonical: "https://quantamonaco.com/mentions-legales" },
+  openGraph: {
+    title: "Mentions légales — Quanta Cabinet d'expertise IA Monaco",
+    description:
+      "Mentions légales de Quanta : informations sur l'éditeur du site, l'hébergeur, la propriété intellectuelle et les coordonnées de contact à Monaco.",
+    url: "https://quantamonaco.com/mentions-legales",
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function MentionsLegales() {
@@ -13,15 +23,15 @@ export default function MentionsLegales() {
     <PageLayout>
       <PageHeader tag="Légal" title="Mentions légales" description="" />
       <section className="section-padding section-light">
-        <div className="max-w-3xl mx-auto px-6 prose-factory">
+        <div className="max-w-3xl mx-auto px-6 prose-quanta">
           <h2>Éditeur du site</h2>
           <p>
-            Le site factorymonaco.com est édité par <strong>Ceres Growth Marketing SAS</strong>, société par actions simplifiée immatriculée en France.
+            Le site quantamonaco.com est édité par <strong>Ceres Growth Marketing SAS</strong>, société par actions simplifiée immatriculée en France.
           </p>
           <ul>
             <li>Dénomination sociale : Ceres Growth Marketing SAS</li>
             <li>Siège social : 128 rue de la Boétie, 75008 Paris, France</li>
-            <li>Marque commerciale : Factory</li>
+            <li>Marque commerciale : Quanta</li>
             <li>Antenne : The Office, Principauté de Monaco</li>
             <li>Directeur de la publication : Guillaume Delachet</li>
           </ul>

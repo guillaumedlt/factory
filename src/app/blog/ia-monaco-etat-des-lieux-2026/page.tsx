@@ -8,7 +8,7 @@ const post = blogPosts.find((p) => p.slug === "ia-monaco-etat-des-lieux-2026")!;
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
+  alternates: { canonical: `https://quantamonaco.com/blog/${post.slug}` },
   openGraph: {
     title: post.title,
     description: post.description,

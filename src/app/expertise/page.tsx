@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   title: "Nos expertises IA",
   description:
     "Audit, automatisation, développement sur mesure, marketing, outils internes et formation. Six domaines pour transformer vos opérations à Monaco.",
-  alternates: { canonical: "https://factorymonaco.com/expertise" },
+  alternates: { canonical: "https://quantamonaco.com/expertise" },
   openGraph: {
     title: "Nos expertises IA",
     description:
       "Audit, automatisation, développement sur mesure, marketing, outils internes et formation. Six domaines pour transformer vos opérations à Monaco.",
-    url: "https://factorymonaco.com/expertise",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/expertise",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },

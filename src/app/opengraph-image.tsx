@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Factory — Cabinet d'Expertise IA à Monaco";
+export const alt = "Quanta — Cabinet d'Expertise IA à Monaco";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -37,7 +37,7 @@ export default async function Image() {
             }}
           />
           <span style={{ color: "#ffffff", fontSize: "24px", fontWeight: 600 }}>
-            Factory
+            Quanta
           </span>
         </div>
         <div
@@ -80,7 +80,7 @@ export default async function Image() {
               fontWeight: 600,
             }}
           >
-            factorymonaco.com
+            quantamonaco.com
           </div>
         </div>
       </div>

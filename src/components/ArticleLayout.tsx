@@ -59,7 +59,7 @@ export default function ArticleLayout({
 
       {/* Article body */}
       <article className="section-padding section-light">
-        <div className="max-w-3xl mx-auto px-6 prose-factory">
+        <div className="max-w-3xl mx-auto px-6 prose-quanta">
           {children}
         </div>
       </article>

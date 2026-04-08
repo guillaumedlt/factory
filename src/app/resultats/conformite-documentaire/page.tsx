@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "conformite-documentaire")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Zéro échéance documentaire manquée depuis le déploiement. Découvrez comment Factory a automatisé le suivi des documents d'identité pour un cabinet monégasque.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Zéro échéance documentaire manquée depuis le déploiement. Découvrez comment Quanta a automatisé le suivi des documents d'identité pour un cabinet monégasque.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

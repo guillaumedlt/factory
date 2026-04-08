@@ -8,9 +8,9 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "campagnes-email-commerce-luxe")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Factory`,
-  description: "Une maison de luxe monégasque augmente de 35 % son taux d'ouverture email grâce à la segmentation IA et au contenu personnalisé déployés par Factory.",
-  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
+  title: `${caseStudy.title} | Cas client Quanta`,
+  description: "Une maison de luxe monégasque augmente de 35 % son taux d'ouverture email grâce à la segmentation IA et au contenu personnalisé déployés par Quanta.",
+  alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

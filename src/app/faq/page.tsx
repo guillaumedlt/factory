@@ -9,14 +9,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Questions fréquentes sur l'IA en entreprise",
   description:
-    "Réponses aux questions les plus courantes sur l'intégration de l'IA en entreprise à Monaco. Coûts, délais, confidentialité, méthode.",
-  alternates: { canonical: "https://factorymonaco.com/faq" },
+    "FAQ Quanta : réponses sur l'IA pour les entreprises monégasques. Automatisation, coûts, méthode, confidentialité, secteurs et délais d'un projet IA à Monaco.",
+  alternates: { canonical: "https://quantamonaco.com/faq" },
   openGraph: {
     title: "Questions fréquentes sur l'IA en entreprise",
     description:
-      "Réponses aux questions les plus courantes sur l'intégration de l'IA en entreprise à Monaco. Coûts, délais, confidentialité, méthode.",
-    url: "https://factorymonaco.com/faq",
-    siteName: "Factory",
+      "FAQ Quanta : réponses sur l'IA pour les entreprises monégasques. Automatisation, coûts, méthode, confidentialité, secteurs et délais d'un projet IA à Monaco.",
+    url: "https://quantamonaco.com/faq",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
 
 const cat1 = [
   {
-    q: "Qu'est-ce que Factory ?",
-    a: "Factory est un cabinet de conseil spécialisé dans l'intégration de l'intelligence artificielle en entreprise, basé à Monaco. Nous accompagnons les organisations de la Principauté et de la Côte d'Azur dans l'audit, l'automatisation et le déploiement de solutions IA adaptées à leurs enjeux métier. Notre approche privilégie la rigueur opérationnelle et les résultats mesurables.",
+    q: "Qu'est-ce que Quanta ?",
+    a: "Quanta est un cabinet de conseil spécialisé dans l'intégration de l'intelligence artificielle en entreprise, basé à Monaco. Nous accompagnons les organisations de la Principauté et de la Côte d'Azur dans l'audit, l'automatisation et le déploiement de solutions IA adaptées à leurs enjeux métier. Notre approche privilégie la rigueur opérationnelle et les résultats mesurables.",
   },
   {
     q: "Comment se passe un premier échange ?",
@@ -45,7 +45,7 @@ const cat1 = [
   },
   {
     q: "Quelle est la taille de votre équipe ?",
-    a: "Factory est une structure volontairement resserrée composée d'experts seniors en intelligence artificielle, en automatisation et en stratégie. Ce format nous permet de garantir un interlocuteur unique par mission et une réactivité que les grands cabinets ne peuvent offrir.",
+    a: "Quanta est une structure volontairement resserrée composée d'experts seniors en intelligence artificielle, en automatisation et en stratégie. Ce format nous permet de garantir un interlocuteur unique par mission et une réactivité que les grands cabinets ne peuvent offrir.",
   },
 ];
 
@@ -99,7 +99,7 @@ const cat3 = [
   },
   {
     q: "Que se passe-t-il si nous voulons changer de prestataire ?",
-    a: "Vous restez propriétaire de l'intégralité des solutions développées pour vous. La documentation technique complète est livrée à la fin de chaque mission. Aucun verrouillage technique, aucune dépendance à Factory. Votre autonomie est notre priorité.",
+    a: "Vous restez propriétaire de l'intégralité des solutions développées pour vous. La documentation technique complète est livrée à la fin de chaque mission. Aucun verrouillage technique, aucune dépendance à Quanta. Votre autonomie est notre priorité.",
   },
 ];
 
@@ -156,7 +156,7 @@ const cat5 = [
 const allFaqItems = [...cat1, ...cat2, ...cat3, ...cat4, ...cat5];
 
 const categories = [
-  { title: "Factory et notre approche", items: cat1 },
+  { title: "Quanta et notre approche", items: cat1 },
   { title: "Coûts et retour sur investissement", items: cat2 },
   { title: "Technologie et confidentialité", items: cat3 },
   { title: "Secteurs et cas d'usage", items: cat4 },

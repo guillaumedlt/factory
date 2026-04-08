@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   title: "IA pour l'immobilier de luxe à Monaco",
   description:
     "Automatisez brochures de prestige, matching acheteurs, veille urbanistique et gestion documentaire pour l'immobilier de luxe a Monaco.",
-  alternates: { canonical: "https://factorymonaco.com/secteurs/immobilier-luxe" },
+  alternates: { canonical: "https://quantamonaco.com/secteurs/immobilier-luxe" },
   openGraph: {
     title: "IA pour l'immobilier de luxe à Monaco",
     description:
       "Automatisez brochures de prestige, matching acheteurs, veille urbanistique et gestion documentaire pour l'immobilier de luxe a Monaco.",
-    url: "https://factorymonaco.com/secteurs/immobilier-luxe",
-    siteName: "Factory",
+    url: "https://quantamonaco.com/secteurs/immobilier-luxe",
+    siteName: "Quanta",
     locale: "fr_FR",
     type: "website",
   },
@@ -195,11 +195,11 @@ export default function ImmobilierLuxePage() {
         </div>
       </section>
 
-      {/* Comparaison Sans IA vs Avec Factory */}
+      {/* Comparaison Sans IA vs Avec Quanta */}
       <section className="section-padding section-surface">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-8 text-center">Sans IA vs Avec Factory</h2>
+            <h2 className="text-xl font-bold mb-8 text-center">Sans IA vs Avec Quanta</h2>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-6 rounded-2xl border border-red-200 bg-red-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-red-400 font-semibold mb-4">Sans IA</p>
@@ -212,7 +212,7 @@ export default function ImmobilierLuxePage() {
                 </ul>
               </div>
               <div className="p-6 rounded-2xl border border-emerald-200 bg-emerald-50/50">
-                <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Factory</p>
+                <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Quanta</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
                   <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Brochure trilingue en 10 minutes, charte respectee</li>
                   <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Matching intelligent, +35 % de conversion</li>

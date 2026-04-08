@@ -1,6 +1,6 @@
 {
-  "name": "Factory — Cabinet d'Expertise IA à Monaco",
-  "short_name": "Factory",
+  "name": "Quanta — Cabinet d'Expertise IA à Monaco",
+  "short_name": "Quanta",
   "description": "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
   "start_url": "/",
   "display": "standalone",
@@ -11,6 +11,23 @@
       "src": "/favicon.ico",
       "sizes": "48x48",
       "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
   ]
 }

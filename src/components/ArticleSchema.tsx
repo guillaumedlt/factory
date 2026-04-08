@@ -13,12 +13,12 @@ export default function ArticleSchema({ post }: { post: BlogPost }) {
     },
     publisher: {
       "@type": "Organization",
-      name: "Factory",
-      url: "https://factorymonaco.com",
+      name: "Quanta",
+      url: "https://quantamonaco.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://factorymonaco.com/blog/${post.slug}`,
+      "@id": `https://quantamonaco.com/blog/${post.slug}`,
     },
   };
 
