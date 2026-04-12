@@ -59,23 +59,50 @@ Quatre phases : Immersion (1-2 semaines), Diagnostic (1 semaine), Déploiement (
 - Gestion des avis clients hôtellerie : /resultats/gestion-avis-clients-hotellerie
 - Campagnes email commerce de luxe : /resultats/campagnes-email-commerce-luxe
 
-## Blog
+## Blog (43 articles)
 - 5 processus rentables à automatiser : /blog/5-processus-rentables-automatiser
 - Agents IA autonomes pour entreprises monégasques : /blog/agent-ia-autonome-entreprise-monaco
 - Automatiser la conformité LCB-FT : /blog/automatiser-conformite-lcb-ft-monaco
+- Automatiser la facturation et comptabilité : /blog/automatiser-facturation-comptabilite-monaco
+- Automatiser la prospection commerciale : /blog/automatiser-prospection-commerciale-monaco
+- Chatbot IA pour le service client : /blog/chatbot-ia-service-client-monaco
+- ChatGPT vs Claude vs Mistral pour Monaco : /blog/chatgpt-claude-entreprise-monaco-quel-llm-choisir
+- Copywriting IA pour entreprises : /blog/contenu-ia-copywriting-monaco
 - Créer un site web en 2 semaines : /blog/creer-site-web-ia-2-semaines
-- Extended Monaco : programme digital de la Principauté : /blog/extended-monaco-programme-digital-principaute
-- Family offices Monaco : digitalisation par l'IA : /blog/family-office-monaco-digitalisation-ia
+- CRM augmenté par IA : /blog/crm-ia-relation-client-monaco
+- Email marketing par IA : /blog/email-marketing-ia-monaco
+- Extended Monaco : programme digital : /blog/extended-monaco-programme-digital-principaute
+- Family offices : digitalisation par l'IA : /blog/family-office-monaco-digitalisation-ia
 - Former ses équipes à l'IA : /blog/former-equipes-ia-generative
-- IA à Monaco : état des lieux 2026 : /blog/ia-monaco-etat-des-lieux-2026
-- IA et droit monégasque pour les cabinets d'avocats : /blog/ia-cabinets-avocats-droit-monegasque
+- IA et analyse de données / BI : /blog/ia-analyse-donnees-business-intelligence-monaco
+- IA pour l'assurance à Monaco : /blog/ia-assurance-monaco
+- IA pour l'audit interne et contrôle : /blog/ia-audit-interne-controle-monaco
+- IA et droit monégasque pour cabinets d'avocats : /blog/ia-cabinets-avocats-droit-monegasque
+- IA pour experts-comptables et fiduciaires : /blog/ia-comptabilite-experts-comptables-monaco
+- IA et due diligence pour M&A : /blog/ia-due-diligence-fusions-acquisitions
+- IA pour l'événementiel et les congrès : /blog/ia-evenementiel-congres-monaco
+- IA générative : opportunités et risques : /blog/ia-generative-monaco-opportunites-risques
 - IA et gestion de patrimoine : /blog/ia-gestion-patrimoine-monaco
-- IA générative à Monaco : opportunités et risques : /blog/ia-generative-monaco-opportunites-risques
+- IA et logistique supply chain : /blog/ia-logistique-supply-chain-monaco
+- IA à Monaco : état des lieux 2026 : /blog/ia-monaco-etat-des-lieux-2026
+- IA pour notaires et offices notariaux : /blog/ia-notaires-monaco
+- IA et relations presse : /blog/ia-relation-presse-monaco
+- IA et ressources humaines : /blog/ia-ressources-humaines-monaco
+- IA pour le yacht management : /blog/ia-yacht-management-monaco
 - Immobilier de luxe et IA : /blog/immobilier-luxe-ia-monaco
-- KYC augmenté par IA dans la banque privée : /blog/kyc-augmente-ia-banque-privee
-- Monaco peut-il devenir un hub IA en Europe ? : /blog/monaco-hub-ia-europe-pourquoi
+- KYC augmenté par IA banque privée : /blog/kyc-augmente-ia-banque-privee
+- Landing pages IA et conversion : /blog/landing-page-ia-conversion-monaco
+- LinkedIn et IA : personal branding : /blog/linkedin-ia-personal-branding-monaco
+- Monaco hub IA en Europe : /blog/monaco-hub-ia-europe-pourquoi
+- No-code et low-code IA pour PME : /blog/no-code-low-code-ia-monaco
+- OCR et extraction documentaire par IA : /blog/ocr-extraction-documents-ia-monaco
+- Prompt engineering : guide pratique : /blog/prompt-engineering-guide-pratique
+- Réseaux sociaux et IA : /blog/reseaux-sociaux-ia-monaco
 - RGPD et IA à Monaco : loi n°1.565 : /blog/rgpd-donnees-personnelles-ia-monaco
-- ROI de l'IA : /blog/roi-intelligence-artificielle-mesurer-gains
+- ROI de l'intelligence artificielle : /blog/roi-intelligence-artificielle-mesurer-gains
+- Sécurité des données et IA : /blog/securite-donnees-ia-entreprise-monaco
+- SEO et IA à Monaco : /blog/seo-ia-monaco-referencement
+- Transformation digitale des PME : /blog/transformation-digitale-pme-monaco
 
 ## Contact
 - WhatsApp : +33 6 45 63 61 07
