@@ -38,13 +38,13 @@ export default function BlogPage() {
             <div className="grid grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-2xl font-bold tracking-tight mb-1">
-                  <AnimatedCounter value={10} />
+                  <AnimatedCounter value={43} />
                 </div>
                 <p className="text-foreground/40 text-[12px]">articles publiés</p>
               </div>
               <div>
                 <div className="text-2xl font-bold tracking-tight mb-1">
-                  <AnimatedCounter value={4} />
+                  <AnimatedCounter value={5} />
                 </div>
                 <p className="text-foreground/40 text-[12px]">catégories</p>
               </div>

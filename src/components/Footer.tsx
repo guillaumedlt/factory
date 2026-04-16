@@ -32,6 +32,15 @@ export default function Footer() {
               <Link href="/glossaire" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Glossaire</Link>
               <Link href="/blog" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Blog</Link>
             </nav>
+
+            <h4 className="text-[10px] uppercase tracking-[0.2em] text-muted font-semibold mb-3 mt-6">Ressources IA Monaco</h4>
+            <nav className="flex flex-col gap-2" aria-label="Ressources">
+              <Link href="/ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">IA à Monaco</Link>
+              <Link href="/agence-ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Agence IA Monaco</Link>
+              <Link href="/consultant-ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Consultant IA Monaco</Link>
+              <Link href="/combien-coute-projet-ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Tarifs projet IA</Link>
+              <Link href="/comparatif-agence-ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Comparatif agences</Link>
+            </nav>
           </div>
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.2em] text-muted font-semibold mb-3">Contact</h4>
