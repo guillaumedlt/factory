@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ia-vs-developpement-traditionnel`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/ia-petite-entreprise-monaco`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/ia-questions-frequentes-dirigeants`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/top-agence-ia-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
     ...expertises.map((slug) => ({
       url: `${base}/expertise/${slug}`,
       lastModified: now,
