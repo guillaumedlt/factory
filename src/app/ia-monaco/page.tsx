@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA Monaco : cabinet d'expertise en intelligence artificielle",
   description:
-    "Cabinet spécialisé en IA à Monaco. Audit, automatisation, développement sur mesure et formation pour les entreprises de la Principauté. Résultats mesurables en 12 semaines.",
+    "Cabinet d'expertise IA à Monaco. Audit, automatisation, développement sur mesure et formation. Résultats mesurables sous 12 semaines, dès 5 000 €.",
   alternates: { canonical: "https://quantamonaco.com/ia-monaco" },
   openGraph: {
     title: "IA Monaco : cabinet d'expertise en intelligence artificielle",
     description:
-      "Cabinet spécialisé en IA à Monaco. Audit, automatisation, développement sur mesure et formation pour les entreprises de la Principauté. Résultats mesurables en 12 semaines.",
+      "Cabinet d'expertise IA à Monaco. Audit, automatisation, développement sur mesure et formation. Résultats mesurables sous 12 semaines, dès 5 000 €.",
     url: "https://quantamonaco.com/ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

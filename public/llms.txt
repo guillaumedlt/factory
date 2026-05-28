@@ -29,9 +29,10 @@ Quatre phases : Immersion (1-2 semaines), Diagnostic (1 semaine), Déploiement (
 - Glossaire : /glossaire
 - Blog : /blog
 
-## Pages SEO (13)
+## Pages SEO (14)
 - IA à Monaco : /ia-monaco
 - Agence IA Monaco : /agence-ia-monaco
+- Agents IA Monaco : /agents-ia-monaco
 - Intelligence artificielle Monaco : /intelligence-artificielle-monaco
 - Consultant IA Monaco : /consultant-ia-monaco
 - Top agence IA Monaco : /top-agence-ia-monaco

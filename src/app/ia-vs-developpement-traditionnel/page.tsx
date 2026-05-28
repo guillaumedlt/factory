@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA vs développement traditionnel : 10x plus rapide à Monaco",
   description:
-    "Développement IA-assisté vs développement classique : comparatif détaillé des délais, des coûts et de la qualité. Pourquoi Cursor, Claude Code, Lovable et v0 changent tout pour les entreprises monégasques.",
+    "Dev IA-assisté vs développement classique : délais, coûts, qualité. Cursor, Claude Code, Lovable, v0 : pourquoi ces outils changent tout à Monaco.",
   alternates: { canonical: "https://quantamonaco.com/ia-vs-developpement-traditionnel" },
   openGraph: {
     title: "IA vs développement traditionnel : 10x plus rapide à Monaco",
     description:
-      "Développement IA-assisté vs développement classique : comparatif détaillé des délais, des coûts et de la qualité. Pourquoi Cursor, Claude Code, Lovable et v0 changent tout pour les entreprises monégasques.",
+      "Dev IA-assisté vs développement classique : délais, coûts, qualité. Cursor, Claude Code, Lovable, v0 : pourquoi ces outils changent tout à Monaco.",
     url: "https://quantamonaco.com/ia-vs-developpement-traditionnel",
     siteName: "Quanta",
     locale: "fr_FR",

@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Délai d'un projet IA à Monaco : 8 à 13 semaines",
   description:
-    "Combien de temps prend un projet d'intelligence artificielle à Monaco ? Calendrier détaillé par phase, quick wins, comparatif avec une agence parisienne ou un développement interne.",
+    "Combien de temps prend un projet IA à Monaco ? Calendrier par phase, quick wins sous 4 semaines, comparatif vs agence parisienne ou dev interne.",
   alternates: { canonical: "https://quantamonaco.com/delai-projet-ia-monaco" },
   openGraph: {
     title: "Délai d'un projet IA à Monaco : 8 à 13 semaines",
     description:
-      "Combien de temps prend un projet d'intelligence artificielle à Monaco ? Calendrier détaillé par phase, quick wins, comparatif avec une agence parisienne ou un développement interne.",
+      "Combien de temps prend un projet IA à Monaco ? Calendrier par phase, quick wins sous 4 semaines, comparatif vs agence parisienne ou dev interne.",
     url: "https://quantamonaco.com/delai-projet-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Comment choisir son agence IA à Monaco : guide complet",
   description:
-    "Guide complet pour choisir une agence d'intelligence artificielle à Monaco : 10 critères essentiels, checklist pratique, red flags à éviter et méthodologie de sélection étape par étape.",
+    "Guide pour choisir une agence IA à Monaco : 10 critères essentiels, checklist, red flags à éviter, méthodologie de sélection étape par étape.",
   alternates: { canonical: "https://quantamonaco.com/comment-choisir-agence-ia-monaco" },
   openGraph: {
     title: "Comment choisir son agence IA à Monaco : guide complet",
     description:
-      "Guide complet pour choisir une agence d'intelligence artificielle à Monaco : 10 critères essentiels, checklist pratique, red flags à éviter et méthodologie de sélection étape par étape.",
+      "Guide pour choisir une agence IA à Monaco : 10 critères essentiels, checklist, red flags à éviter, méthodologie de sélection étape par étape.",
     url: "https://quantamonaco.com/comment-choisir-agence-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

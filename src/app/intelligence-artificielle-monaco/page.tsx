@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Intelligence artificielle Monaco : transformer votre entreprise",
   description:
-    "Comment l'intelligence artificielle transforme concrètement les entreprises à Monaco. Impact secteur par secteur, ROI documenté, cadre réglementaire et guide pour démarrer.",
+    "Comment l'IA transforme les entreprises de Monaco : impact par secteur, ROI documenté, cadre réglementaire (SICCFIN, CCAF) et guide pour démarrer.",
   alternates: { canonical: "https://quantamonaco.com/intelligence-artificielle-monaco" },
   openGraph: {
     title: "Intelligence artificielle Monaco : transformer votre entreprise",
     description:
-      "Comment l'intelligence artificielle transforme concrètement les entreprises à Monaco. Impact secteur par secteur, ROI documenté, cadre réglementaire et guide pour démarrer.",
+      "Comment l'IA transforme les entreprises de Monaco : impact par secteur, ROI documenté, cadre réglementaire (SICCFIN, CCAF) et guide pour démarrer.",
     url: "https://quantamonaco.com/intelligence-artificielle-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

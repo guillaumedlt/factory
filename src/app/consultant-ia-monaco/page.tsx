@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Consultant IA Monaco : accompagnement sur site à la Principauté",
   description:
-    "Consultant IA à Monaco : expertise terrain, présence sur site et résultats mesurables. Méthodologie éprouvée pour intégrer l'intelligence artificielle dans votre entreprise monégasque.",
+    "Consultant IA à Monaco : présence sur site, méthodologie en 4 phases, 50+ projets livrés en Principauté. Audit dès 5 000 €, premier entretien offert.",
   alternates: { canonical: "https://quantamonaco.com/consultant-ia-monaco" },
   openGraph: {
     title: "Consultant IA Monaco : accompagnement sur site à la Principauté",
     description:
-      "Consultant IA à Monaco : expertise terrain, présence sur site et résultats mesurables. Méthodologie éprouvée pour intégrer l'intelligence artificielle dans votre entreprise monégasque.",
+      "Consultant IA à Monaco : présence sur site, méthodologie en 4 phases, 50+ projets livrés en Principauté. Audit dès 5 000 €, premier entretien offert.",
     url: "https://quantamonaco.com/consultant-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

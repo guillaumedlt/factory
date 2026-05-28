@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA pour la banque privée à Monaco",
   description:
-    "Accelerez KYC, KYB et due diligence grace a l'IA. Scoring risques, reporting reglementaire et anti-blanchiment pour banques privees a Monaco.",
+    "Accélérez KYC, KYB et due diligence grâce à l'IA. Scoring risques, reporting réglementaire et anti-blanchiment pour banques privées à Monaco.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/banque-privee" },
   openGraph: {
     title: "IA pour la banque privée à Monaco",
     description:
-      "Accelerez KYC, KYB et due diligence grace a l'IA. Scoring risques, reporting reglementaire et anti-blanchiment pour banques privees a Monaco.",
+      "Accélérez KYC, KYB et due diligence grâce à l'IA. Scoring risques, reporting réglementaire et anti-blanchiment pour banques privées à Monaco.",
     url: "https://quantamonaco.com/secteurs/banque-privee",
     siteName: "Quanta",
     locale: "fr_FR",
@@ -24,24 +24,24 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    q: "Comment garantissez-vous la securite des donnees bancaires ?",
-    a: "Les donnees sont traitees dans un environnement cloisonne, heberge sur cloud prive europeen ou on-premise selon vos politiques de securite. Aucune donnee n'est partagee avec des modeles tiers. Nous respectons les exigences de souverainete posees par les autorites monegasques et signons un accord de confidentialite renforce avant toute mission. Le chiffrement est applique au repos et en transit.",
+    q: "Comment garantissez-vous la sécurité des données bancaires ?",
+    a: "Les données sont traitées dans un environnement cloisonné, hébergé sur cloud privé européen ou on-premise selon vos politiques de sécurité. Aucune donnée n'est partagée avec des modèles tiers. Nous respectons les exigences de souveraineté posées par les autorités monégasques et signons un accord de confidentialité renforcé avant toute mission. Le chiffrement est appliqué au repos et en transit.",
   },
   {
     q: "Vos agents remplacent-ils le compliance officer ?",
-    a: "Non. L'agent IA automatise la collecte, la verification et la mise en forme des donnees. La decision finale reste toujours entre les mains du compliance officer ou du banquier prive. L'IA agit comme un assistant qui prepare le travail, signale les anomalies et propose des actions, mais c'est l'humain qui valide et engage la responsabilite de l'etablissement.",
+    a: "Non. L'agent IA automatise la collecte, la vérification et la mise en forme des données. La décision finale reste toujours entre les mains du compliance officer ou du banquier privé. L'IA agit comme un assistant qui prépare le travail, signale les anomalies et propose des actions, mais c'est l'humain qui valide et engage la responsabilité de l'établissement.",
   },
   {
-    q: "Quels systemes bancaires pouvez-vous integrer ?",
-    a: "Nous avons l'experience des principaux core banking et outils de gestion utilises dans les banques privees monegasques. L'integration se fait via API, connecteurs dedies ou extraction de fichiers. Nous travaillons en etroite collaboration avec votre equipe IT pour garantir une integration sans disruption de vos operations quotidiennes.",
+    q: "Quels systèmes bancaires pouvez-vous intégrer ?",
+    a: "Nous avons l'expérience des principaux core banking et outils de gestion utilisés dans les banques privées monégasques. L'intégration se fait via API, connecteurs dédiés ou extraction de fichiers. Nous travaillons en étroite collaboration avec votre équipe IT pour garantir une intégration sans disruption de vos opérations quotidiennes.",
   },
   {
-    q: "Quel est le delai de deploiement pour une banque privee ?",
-    a: "Le deploiement complet prend entre 6 et 12 semaines, selon le nombre de processus a automatiser et la complexite de votre infrastructure. Nous procedons par phases : audit initial, prototype sur un perimetre restreint, validation avec vos equipes, puis deploiement progressif. Chaque phase inclut des points de validation avec votre direction conformite.",
+    q: "Quel est le délai de déploiement pour une banque privée ?",
+    a: "Le déploiement complet prend entre 6 et 12 semaines, selon le nombre de processus à automatiser et la complexité de votre infrastructure. Nous procédons par phases : audit initial, prototype sur un périmètre restreint, validation avec vos équipes, puis déploiement progressif. Chaque phase inclut des points de validation avec votre direction conformité.",
   },
   {
-    q: "Comment l'IA gere-t-elle les PPE et les structures complexes ?",
-    a: "L'agent est entraine a identifier les personnes politiquement exposees selon les criteres du GAFI et les listes specifiques a Monaco. Pour les structures de detention complexes (trusts, fondations, chaines de societes), il reconstruit l'organigramme de beneficiaires effectifs et signale les niveaux de risque associes. Les cas ambigus sont systematiquement remontes au compliance officer avec un dossier argumente.",
+    q: "Comment l'IA gère-t-elle les PPE et les structures complexes ?",
+    a: "L'agent est entraîné à identifier les personnes politiquement exposées selon les critères du GAFI et les listes spécifiques à Monaco. Pour les structures de détention complexes (trusts, fondations, chaînes de sociétés), il reconstruit l'organigramme de bénéficiaires effectifs et signale les niveaux de risque associés. Les cas ambigus sont systématiquement remontés au compliance officer avec un dossier argumenté.",
   },
 ];
 
@@ -57,19 +57,19 @@ export default function BanquePriveePage() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] text-muted font-semibold">Secteur</span>
               <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mt-3 mb-4">
-                Intelligence artificielle pour la banque privee a Monaco
+                Intelligence artificielle pour la banque privée à Monaco
               </h1>
               <p className="text-foreground/60 text-[15px] leading-relaxed max-w-xl">
-                Renforcez vos dispositifs KYC, de due diligence et de lutte anti-blanchiment tout en reduisant la charge operationnelle de vos equipes conformite et back-office.
+                Renforcez vos dispositifs KYC, de due diligence et de lutte anti-blanchiment tout en réduisant la charge opérationnelle de vos équipes conformité et back-office.
               </p>
             </div>
             <div className="hidden lg:block">
               <div className="animate-float">
                 <div className="bg-dark rounded-2xl p-6 text-white shadow-2xl">
-                  <p className="text-[10px] uppercase tracking-[0.15em] text-white/40 mb-4 font-semibold">Surveillance conformite</p>
+                  <p className="text-[10px] uppercase tracking-[0.15em] text-white/40 mb-4 font-semibold">Surveillance conformité</p>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
-                      <span className="text-[12px] text-white/60">Dossiers KYC traites</span>
+                      <span className="text-[12px] text-white/60">Dossiers KYC traités</span>
                       <span className="text-[13px] font-bold text-emerald-400">217</span>
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
@@ -82,7 +82,7 @@ export default function BanquePriveePage() {
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
                       <span className="text-[12px] text-white/60">Rapport SICCFIN</span>
-                      <span className="text-[13px] font-bold text-emerald-400">Pret</span>
+                      <span className="text-[13px] font-bold text-emerald-400">Prêt</span>
                     </div>
                   </div>
                 </div>
@@ -107,26 +107,26 @@ export default function BanquePriveePage() {
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={48} suffix="h" />
                 </div>
-                <p className="text-muted text-[13px] mt-2">delai reponse SICCFIN</p>
+                <p className="text-muted text-[13px] mt-2">délai réponse SICCFIN</p>
               </div>
               <div className="p-6 rounded-2xl bg-surface border border-border text-center">
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={0} />
                 </div>
-                <p className="text-muted text-[13px] mt-2">anomalie non detectee en controle</p>
+                <p className="text-muted text-[13px] mt-2">anomalie non détectée en contrôle</p>
               </div>
               <div className="p-6 rounded-2xl bg-surface border border-border text-center">
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={200} suffix="+" />
                 </div>
-                <p className="text-muted text-[13px] mt-2">relations onboardees par an</p>
+                <p className="text-muted text-[13px] mt-2">relations onboardées par an</p>
               </div>
             </div>
           </RevealOnScroll>
         </div>
       </section>
 
-      {/* Intro condensee */}
+      {/* Intro condensée */}
       <section className="section-padding section-light">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
@@ -134,13 +134,13 @@ export default function BanquePriveePage() {
               <div>
                 <h2 className="text-xl font-bold mb-4">Le constat</h2>
                 <p className="text-foreground/60 text-[14px] leading-relaxed">
-                  Monaco accueille plus de trente etablissements bancaires gerant des encours considerables pour une clientele internationale. Un analyste conformite passe en moyenne 6 heures par dossier d'onboarding. Les inspections du SICCFIN et de la CCAF exigent des audit trails complets et une tracabilite sans faille, ajoutant une pression croissante sur des equipes deja sollicitees.
+                  Monaco accueille plus de trente établissements bancaires gérant des encours considérables pour une clientèle internationale. Un analyste conformité passe en moyenne 6 heures par dossier d&apos;onboarding. Les inspections du SICCFIN et de la CCAF exigent des audit trails complets et une traçabilité sans faille, ajoutant une pression croissante sur des équipes déjà sollicitées.
                 </p>
               </div>
               <div>
-                <h2 className="text-xl font-bold mb-4">L'opportunite IA</h2>
+                <h2 className="text-xl font-bold mb-4">L&apos;opportunité IA</h2>
                 <p className="text-foreground/60 text-[14px] leading-relaxed">
-                  Nos agents prennent en charge collecte, verification et reporting. L'extraction automatique (OCR intelligent, analyse de structures juridiques) reduit de 70 % le temps de traitement d'un dossier KYC. Ils comprennent les specificites monegasques : formulaires SICCFIN, attendus CCAF, structures SAM, SCI et trusts de droit etranger.
+                  Nos agents prennent en charge collecte, vérification et reporting. L&apos;extraction automatique (OCR intelligent, analyse de structures juridiques) réduit de 70 % le temps de traitement d&apos;un dossier KYC. Ils comprennent les spécificités monégasques : formulaires SICCFIN, attendus CCAF, structures SAM, SCI et trusts de droit étranger.
                 </p>
               </div>
             </div>
@@ -155,39 +155,39 @@ export default function BanquePriveePage() {
             <h2 className="text-xl font-bold mb-6">Ce que nous automatisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Onboarding client accelere</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Onboarding client accéléré</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Collecte de documents, extraction OCR, verifications croisees et pre-remplissage du dossier KYC. Le compliance officer valide un dossier finalise en quelques jours.
+                  Collecte de documents, extraction OCR, vérifications croisées et pré-remplissage du dossier KYC. Le compliance officer valide un dossier finalisé en quelques jours.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Due diligence renforcee</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Due diligence renforcée</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Organigramme de detention, source des fonds, presse negative, screening sanctions (ONU, UE, OFAC). Rapport structure avec score de risque argumente.
+                  Organigramme de détention, source des fonds, presse négative, screening sanctions (ONU, UE, OFAC). Rapport structuré avec score de risque argumenté.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Detection d'operations atypiques</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Détection d&apos;opérations atypiques</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Analyse en temps reel des transactions : fractionnement, virements circulaires, montants incoherents. Alertes contextualisees pour le compliance officer.
+                  Analyse en temps réel des transactions : fractionnement, virements circulaires, montants incohérents. Alertes contextualisées pour le compliance officer.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Reporting reglementaire automatise</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Reporting réglementaire automatisé</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Production automatique des rapports periodiques au format SICCFIN et CCAF : declarations, statistiques de conformite, indicateurs de risque.
+                  Production automatique des rapports périodiques au format SICCFIN et CCAF : déclarations, statistiques de conformité, indicateurs de risque.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Revue de portefeuille client</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Synthese par client avant chaque comite : performance, mouvements recents, alertes conformite et suggestions d'allocation. Vision complete et actualisee.
+                  Synthèse par client avant chaque comité : performance, mouvements récents, alertes conformité et suggestions d&apos;allocation. Vision complète et actualisée.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Correspondance reglementaire</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Correspondance réglementaire</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Redaction assistee des reponses aux demandes SICCFIN/CCAF. Pieces rassemblees, projet structure et soumis pour validation. Delai moyen : moins de 48 heures.
+                  Rédaction assistée des réponses aux demandes SICCFIN/CCAF. Pièces rassemblées, projet structuré et soumis pour validation. Délai moyen : moins de 48 heures.
                 </p>
               </div>
             </div>
@@ -204,21 +204,21 @@ export default function BanquePriveePage() {
               <div className="p-6 rounded-2xl border border-red-200 bg-red-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-red-400 font-semibold mb-4">Sans IA</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>6 heures par dossier d'onboarding KYC</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>6 heures par dossier d&apos;onboarding KYC</li>
                   <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Screening sanctions manuel et ponctuel</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>5 jours pour repondre au SICCFIN</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Detection d'operations atypiques tardive</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>5 jours pour répondre au SICCFIN</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Détection d&apos;opérations atypiques tardive</li>
                   <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Reportings produits manuellement</li>
                 </ul>
               </div>
               <div className="p-6 rounded-2xl border border-emerald-200 bg-emerald-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Quanta</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Dossier KYC pre-rempli, validation en quelques clics</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Screening continu en temps reel, alertes instantanees</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Reponse SICCFIN en moins de 48 heures</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Analyse transactionnelle en temps reel</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Rapports generes au format requis, prets a soumettre</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Dossier KYC pré-rempli, validation en quelques clics</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Screening continu en temps réel, alertes instantanées</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Réponse SICCFIN en moins de 48 heures</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Analyse transactionnelle en temps réel</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Rapports générés au format requis, prêts à soumettre</li>
                 </ul>
               </div>
             </div>
@@ -230,16 +230,16 @@ export default function BanquePriveePage() {
       <section className="section-padding section-tinted">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Questions frequentes</h2>
+            <h2 className="text-xl font-bold mb-6">Questions fréquentes</h2>
             <FAQ items={faqItems} />
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
             <div className="flex flex-wrap gap-3 mt-12">
-              <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit & strategie</Link>
-              <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Developpement IA sur mesure</Link>
+              <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit & stratégie</Link>
+              <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Développement IA sur mesure</Link>
               <Link href="/secteurs/gestion-patrimoine" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Gestion de patrimoine</Link>
-              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Tous les resultats</Link>
-              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Notre methode</Link>
+              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Tous les résultats</Link>
+              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Notre méthode</Link>
             </div>
           </RevealOnScroll>
         </div>
@@ -250,10 +250,10 @@ export default function BanquePriveePage() {
         <div className="max-w-2xl mx-auto px-6">
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">
-              Transformez votre conformite en avantage concurrentiel
+              Transformez votre conformité en avantage concurrentiel
             </h2>
             <p className="text-foreground/60 text-[14px] mb-8">
-              Echangeons sur vos defis reglementaires lors d'un entretien confidentiel. Nous vous montrerons comment l'IA peut renforcer votre dispositif sans compromettre la securite de vos donnees.
+              Échangeons sur vos défis réglementaires lors d&apos;un entretien confidentiel. Nous vous montrerons comment l&apos;IA peut renforcer votre dispositif sans compromettre la sécurité de vos données.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a

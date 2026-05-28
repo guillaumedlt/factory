@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA pour petite entreprise à Monaco : guide pratique",
   description:
-    "Guide complet de l'IA pour les petites entreprises monégasques. Mythes, cas d'usage, outils accessibles, quick wins sous 5 000 euros. Par où commencer quand on a 5 à 50 collaborateurs.",
+    "Guide IA pour les PME monégasques (5 à 50 collaborateurs) : cas d'usage, outils accessibles, quick wins dès 5 000 €. Par où commencer concrètement.",
   alternates: { canonical: "https://quantamonaco.com/ia-petite-entreprise-monaco" },
   openGraph: {
     title: "IA pour petite entreprise à Monaco : guide pratique",
     description:
-      "Guide complet de l'IA pour les petites entreprises monégasques. Mythes, cas d'usage, outils accessibles, quick wins sous 5 000 euros. Par où commencer quand on a 5 à 50 collaborateurs.",
+      "Guide IA pour les PME monégasques (5 à 50 collaborateurs) : cas d'usage, outils accessibles, quick wins dès 5 000 €. Par où commencer concrètement.",
     url: "https://quantamonaco.com/ia-petite-entreprise-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Comparatif des agences IA à Monaco : comment choisir",
   description:
-    "Comparatif objectif des agences IA à Monaco : cabinets locaux, agences parisiennes, cabinets internationaux. Critères, tarifs, délais, expertise réglementaire et support post-déploiement.",
+    "Comparatif des agences IA à Monaco : cabinets locaux vs agences parisiennes vs cabinets internationaux. Tarifs, délais, expertise réglementaire.",
   alternates: { canonical: "https://quantamonaco.com/comparatif-agence-ia-monaco" },
   openGraph: {
     title: "Comparatif des agences IA à Monaco : comment choisir",
     description:
-      "Comparatif objectif des agences IA à Monaco : cabinets locaux, agences parisiennes, cabinets internationaux. Critères, tarifs, délais, expertise réglementaire et support post-déploiement.",
+      "Comparatif des agences IA à Monaco : cabinets locaux vs agences parisiennes vs cabinets internationaux. Tarifs, délais, expertise réglementaire.",
     url: "https://quantamonaco.com/comparatif-agence-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

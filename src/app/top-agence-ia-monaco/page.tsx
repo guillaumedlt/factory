@@ -9,11 +9,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Top agence IA à Monaco : intelligence artificielle Principauté",
   description:
-    "Découvrez la meilleure agence IA à Monaco. Quanta : cabinet d'expertise en intelligence artificielle, sur site dans la Principauté. Audit, automatisation, formation.",
+    "Quanta, cabinet d'expertise IA à Monaco. Audit, automatisation et formation sur site dans la Principauté. 50+ projets livrés, devis sous 48h.",
   alternates: { canonical: "https://quantamonaco.com/top-agence-ia-monaco" },
   openGraph: {
     title: "Top agence IA à Monaco : intelligence artificielle Principauté",
-    description: "Découvrez la meilleure agence IA à Monaco. Quanta : cabinet d'expertise en intelligence artificielle, sur site dans la Principauté.",
+    description: "Quanta, cabinet d'expertise IA à Monaco. Audit, automatisation et formation sur site dans la Principauté. 50+ projets livrés, devis sous 48h.",
     url: "https://quantamonaco.com/top-agence-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Combien coûte un projet IA à Monaco : guide des tarifs",
   description:
-    "Combien coûte un projet d'intelligence artificielle à Monaco : tarifs détaillés audit, automatisation, développement sur mesure et formation. Facteurs de prix, ROI, coûts cachés et options de financement.",
+    "Combien coûte un projet IA à Monaco : tarifs audit, automatisation, dev sur mesure, formation. ROI, coûts cachés, financement. Audit dès 5 000 €.",
   alternates: { canonical: "https://quantamonaco.com/combien-coute-projet-ia-monaco" },
   openGraph: {
     title: "Combien coûte un projet IA à Monaco : guide des tarifs",
     description:
-      "Combien coûte un projet d'intelligence artificielle à Monaco : tarifs détaillés audit, automatisation, développement sur mesure et formation. Facteurs de prix, ROI, coûts cachés et options de financement.",
+      "Combien coûte un projet IA à Monaco : tarifs audit, automatisation, dev sur mesure, formation. ROI, coûts cachés, financement. Audit dès 5 000 €.",
     url: "https://quantamonaco.com/combien-coute-projet-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

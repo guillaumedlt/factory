@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Pourquoi choisir Quanta : cabinet IA à Monaco",
   description:
-    "Pourquoi faire appel à Quanta pour votre projet d'intelligence artificielle à Monaco : présence sur site, expertise réglementaire, méthode éprouvée, résultats mesurables et transparence totale.",
+    "Pourquoi Quanta pour votre projet IA à Monaco : présence sur site, expertise SICCFIN/CCAF, méthode 4 phases, résultats mesurables et transparence totale.",
   alternates: { canonical: "https://quantamonaco.com/pourquoi-choisir-quanta" },
   openGraph: {
     title: "Pourquoi choisir Quanta : cabinet IA à Monaco",
     description:
-      "Pourquoi faire appel à Quanta pour votre projet d'intelligence artificielle à Monaco : présence sur site, expertise réglementaire, méthode éprouvée, résultats mesurables et transparence totale.",
+      "Pourquoi Quanta pour votre projet IA à Monaco : présence sur site, expertise SICCFIN/CCAF, méthode 4 phases, résultats mesurables et transparence totale.",
     url: "https://quantamonaco.com/pourquoi-choisir-quanta",
     siteName: "Quanta",
     locale: "fr_FR",

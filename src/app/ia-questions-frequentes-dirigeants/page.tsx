@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA en entreprise : 20 questions des dirigeants à Monaco",
   description:
-    "Les 20 questions les plus fréquentes des dirigeants monégasques sur l'intelligence artificielle. Budget, ROI, sécurité, RGPD, emploi, outils : réponses claires d'un cabinet expert en IA à Monaco.",
+    "20 questions des dirigeants monégasques sur l'IA : budget, ROI, sécurité, RGPD, emploi, outils. Réponses claires d'un cabinet IA Monaco.",
   alternates: { canonical: "https://quantamonaco.com/ia-questions-frequentes-dirigeants" },
   openGraph: {
     title: "IA en entreprise : 20 questions des dirigeants à Monaco",
     description:
-      "Les 20 questions les plus fréquentes des dirigeants monégasques sur l'intelligence artificielle. Budget, ROI, sécurité, RGPD, emploi, outils : réponses claires d'un cabinet expert en IA à Monaco.",
+      "20 questions des dirigeants monégasques sur l'IA : budget, ROI, sécurité, RGPD, emploi, outils. Réponses claires d'un cabinet IA Monaco.",
     url: "https://quantamonaco.com/ia-questions-frequentes-dirigeants",
     siteName: "Quanta",
     locale: "fr_FR",

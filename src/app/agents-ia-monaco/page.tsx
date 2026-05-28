@@ -9,11 +9,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Agents IA à Monaco : automatisation intelligente Principauté",
   description:
-    "Déployez des agents IA autonomes dans votre entreprise à Monaco. Ils exécutent des tâches complexes 24/7 : conformité, reporting, prospection, gestion documentaire.",
+    "Déployez des agents IA autonomes dans votre entreprise à Monaco. Tâches complexes 24/7 : conformité, reporting, prospection, OCR documentaire.",
   alternates: { canonical: "https://quantamonaco.com/agents-ia-monaco" },
   openGraph: {
     title: "Agents IA à Monaco : automatisation intelligente Principauté",
-    description: "Déployez des agents IA autonomes dans votre entreprise à Monaco. Conformité, reporting, prospection, gestion documentaire 24/7.",
+    description: "Déployez des agents IA autonomes dans votre entreprise à Monaco. Tâches complexes 24/7 : conformité, reporting, prospection, OCR documentaire.",
     url: "https://quantamonaco.com/agents-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",

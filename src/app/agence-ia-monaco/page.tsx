@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Agence IA Monaco : expertise locale et résultats concrets",
   description:
-    "Agence IA à Monaco spécialisée dans l'intégration de l'intelligence artificielle pour les entreprises de la Principauté. Présence sur site, connaissance réglementaire, résultats mesurables.",
+    "Agence IA à Monaco. Intervention sur site, expertise SICCFIN/CCAF, 50+ projets livrés dans la Principauté. Devis sous 48h, audit dès 5 000 €.",
   alternates: { canonical: "https://quantamonaco.com/agence-ia-monaco" },
   openGraph: {
     title: "Agence IA Monaco : expertise locale et résultats concrets",
     description:
-      "Agence IA à Monaco spécialisée dans l'intégration de l'intelligence artificielle pour les entreprises de la Principauté. Présence sur site, connaissance réglementaire, résultats mesurables.",
+      "Agence IA à Monaco. Intervention sur site, expertise SICCFIN/CCAF, 50+ projets livrés dans la Principauté. Devis sous 48h, audit dès 5 000 €.",
     url: "https://quantamonaco.com/agence-ia-monaco",
     siteName: "Quanta",
     locale: "fr_FR",
