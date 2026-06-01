@@ -1,11 +1,24 @@
 import AiChat from "./AiChat";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative min-h-[100svh] flex flex-col justify-center overflow-hidden pt-24 pb-16">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#7e99b8] via-[#9db0c7] to-[#bcc8d4]" />
+      {/* Subtle B&W Monaco photo layer — adds atmosphere without overpowering */}
+      <div className="absolute inset-0 opacity-[0.18] mix-blend-multiply">
+        <Image
+          src="https://images.unsplash.com/photo-1752885743027-507c36fc60aa?w=2400&q=80&auto=format&fit=crop"
+          alt=""
+          aria-hidden="true"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover grayscale"
+        />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/90" />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-background/40" />
       <div className="absolute top-[15%] left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[150px]" />

@@ -9,6 +9,7 @@ import Method from "@/components/Method";
 import Sectors from "@/components/Sectors";
 import Results from "@/components/Results";
 import Cabinet from "@/components/Cabinet";
+import MonacoPresence from "@/components/MonacoPresence";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Sectors />
         <Results />
         <Cabinet />
+        <MonacoPresence />
         <Contact />
       </main>
       <Footer />
